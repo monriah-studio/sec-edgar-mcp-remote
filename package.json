@@ -22,7 +22,7 @@
     "xbrl",
     "cloudflare-workers"
   ],
-  "author": "MonRiah Studio <kidriahx@gmail.com>",
+  "author": "Caleb Love <kidriahx@gmail.com>",
   "license": "MIT",
   "type": "module",
   "devDependencies": {
