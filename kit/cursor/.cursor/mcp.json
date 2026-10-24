@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "sec-edgar": {
+      "url": "https://sec-edgar-api.kidriahx.workers.dev/mcp"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sec-edgar": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://sec-edgar-api.kidriahx.workers.dev/mcp", "--transport", "http-only"]
+    }
+  }
+}
