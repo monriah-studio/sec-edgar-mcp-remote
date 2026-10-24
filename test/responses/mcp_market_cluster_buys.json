@@ -1,0 +1,62 @@
+{
+  "window": {
+    "days": 30,
+    "from": "2026-09-19",
+    "to": "2026-10-19"
+  },
+  "dataUpdatedAt": "2026-10-19T21:00:41.302Z",
+  "issuers": 2,
+  "clusterBuys": 2,
+  "results": [
+    {
+      "issuer": "Sterling Real Estate Trust",
+      "cik": "0001412502",
+      "insiderCount": 2,
+      "clusterBuy": true,
+      "totalValueUsd": 27000,
+      "totalShares": 1058.823,
+      "avgPrice": 25.5,
+      "firstDate": "2026-10-15",
+      "lastDate": "2026-10-15",
+      "insiders": [
+        {
+          "name": "Carlson Michael Paul",
+          "role": "GENERAL COUNSEL & SECRETARY",
+          "valueUsd": 2000
+        },
+        {
+          "name": "Wieland James",
+          "role": "10% Owner, TRUSTEE",
+          "valueUsd": 25000
+        }
+      ],
+      "latestFilingUrl": "https://www.sec.gov/Archives/edgar/data/1412502/000151982226000011/form4-10192026_031055.xml"
+    },
+    {
+      "ticker": "FNGR",
+      "issuer": "FingerMotion, Inc.",
+      "cik": "0001602409",
+      "insiderCount": 2,
+      "clusterBuy": true,
+      "totalValueUsd": 5019.15,
+      "totalShares": 28500,
+      "avgPrice": 0.1761,
+      "firstDate": "2026-10-16",
+      "lastDate": "2026-10-16",
+      "insiders": [
+        {
+          "name": "KAHN JOLIE",
+          "role": "CEO, Director",
+          "valueUsd": 2550
+        },
+        {
+          "name": "Polimeni Christopher Vincent",
+          "role": "CFO",
+          "valueUsd": 2469.15
+        }
+      ],
+      "latestFilingUrl": "https://www.sec.gov/Archives/edgar/data/1602409/000149315226047479/ownership.xml"
+    }
+  ],
+  "note": "Open-market, non-derivative purchases only. Not investment advice."
+}

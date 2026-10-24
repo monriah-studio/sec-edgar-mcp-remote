@@ -1,0 +1,2 @@
+RAPIDAPI_PROXY_SECRET=<your-rapidapi-proxy-secret>
+MCP_API_KEYS=<optional-comma-separated-keys>

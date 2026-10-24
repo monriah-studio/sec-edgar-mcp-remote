@@ -1,0 +1,504 @@
+openapi: 3.0.3
+info:
+  title: SEC EDGAR Insider Trades & Financials API
+  version: 1.0.0
+  description: |
+    Fast JSON access to U.S. SEC EDGAR data: parsed **Form 4 insider trades** (buy/sell, shares, price,
+    value, insider role), **market-wide insider buying and cluster buys**, **company filings**, an
+    **XBRL financial snapshot** (revenue, net income, EPS, assets, cash, debt, margins), raw company
+    facts and concepts, and **EDGAR full-text search**.
+
+    Data comes directly from SEC EDGAR (public domain) under SEC fair-access rules (declared
+    User-Agent, < 10 requests/second, caching). Not affiliated with or endorsed by the SEC.
+    Not investment advice.
+  contact:
+    name: MonRiah Studio
+    email: kidriahx@gmail.com
+  license:
+    name: API code proprietary; underlying EDGAR data is U.S. public domain
+    url: https://www.sec.gov/privacy#dissemination
+security:
+  - RapidAPIKey: []
+servers:
+  - url: https://sec-edgar-api.YOUR-SUBDOMAIN.workers.dev
+    description: Cloudflare Workers deployment (replace with your workers.dev URL)
+tags:
+  - name: Insider trading
+    description: Parsed Form 4 insider transactions and market-wide insider buying.
+  - name: Filings
+    description: Company profile and EDGAR filing lists.
+  - name: Financials
+    description: XBRL financial data from 10-K/10-Q filings.
+  - name: Search
+    description: EDGAR full-text search.
+  - name: Utility
+    description: Identifier resolution and health.
+paths:
+  /v1/insider-trades/{id}:
+    get:
+      tags: [Insider trading]
+      operationId: getInsiderTrades
+      summary: Insider trades (Form 4) for a company or insider
+      description: |
+        Parses the most recent Form 4 / 4-A filings for a ticker or CIK (issuer or insider) into
+        one row per transaction. Transaction codes: P = open-market purchase, S = sale, A = award,
+        M = option exercise, F = tax withholding, G = gift, and so on.
+      parameters:
+        - $ref: '#/components/parameters/Id'
+        - name: limit
+          in: query
+          description: Number of most recent Form 4 filings to parse (1–25).
+          schema: { type: integer, default: 10, minimum: 1, maximum: 25 }
+        - name: side
+          in: query
+          description: Only open-market buys (P) or sells (S).
+          schema: { type: string, enum: [buy, sell] }
+        - name: codes
+          in: query
+          description: Comma-separated transaction codes to keep, e.g. `P,S,M`.
+          schema: { type: string }
+          example: P,S
+        - name: since
+          in: query
+          description: Only filings filed on or after this date (YYYY-MM-DD).
+          schema: { type: string, format: date }
+        - name: includeDerivative
+          in: query
+          description: Include derivative-table rows (options, RSUs).
+          schema: { type: boolean, default: true }
+      responses:
+        '200':
+          description: Parsed insider transactions
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/InsiderTradesResponse' }
+        '400': { $ref: '#/components/responses/Error' }
+        '404': { $ref: '#/components/responses/Error' }
+        '502': { $ref: '#/components/responses/Error' }
+  /v1/insider-buys:
+    get:
+      tags: [Insider trading]
+      operationId: getInsiderBuys
+      summary: Recent open-market insider buys across the market, grouped by company (cluster buys)
+      description: |
+        Market-wide open-market purchases (code P, non-derivative) from recently filed Form 4s,
+        grouped by issuer. `isClusterBuy` is true when two or more different insiders bought.
+        Sorted by number of insiders, then total value. The data is refreshed every 10 minutes.
+      parameters:
+        - name: days
+          in: query
+          description: Look-back window in days (by filing date).
+          schema: { type: integer, default: 7, minimum: 1, maximum: 30 }
+        - name: minInsiders
+          in: query
+          description: Minimum distinct insiders per company (2 = cluster buys only).
+          schema: { type: integer, default: 1, minimum: 1, maximum: 20 }
+        - name: minValue
+          in: query
+          description: Minimum total purchase value in USD per company.
+          schema: { type: integer, default: 0, minimum: 0 }
+        - name: role
+          in: query
+          description: Only buys by officers, directors or 10% owners.
+          schema: { type: string, enum: [officer, director, tenpercent] }
+        - name: limit
+          in: query
+          schema: { type: integer, default: 50, minimum: 1, maximum: 500 }
+      responses:
+        '200':
+          description: Companies with insider buying
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/InsiderBuysResponse' }
+        '400': { $ref: '#/components/responses/Error' }
+        '502': { $ref: '#/components/responses/Error' }
+  /v1/filings/{id}:
+    get:
+      tags: [Filings]
+      operationId: getFilings
+      summary: Company filings list (10-K, 10-Q, 8-K, 4, S-1, ...)
+      parameters:
+        - $ref: '#/components/parameters/Id'
+        - name: forms
+          in: query
+          description: Comma-separated form types, e.g. `10-K,10-Q,8-K` (amendments included).
+          schema: { type: string }
+          example: 10-K,8-K
+        - name: since
+          in: query
+          schema: { type: string, format: date }
+        - name: until
+          in: query
+          schema: { type: string, format: date }
+        - name: limit
+          in: query
+          schema: { type: integer, default: 50, minimum: 1, maximum: 1000 }
+      responses:
+        '200':
+          description: Company profile and filings
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/FilingsResponse' }
+        '404': { $ref: '#/components/responses/Error' }
+  /v1/company/{id}/snapshot:
+    get:
+      tags: [Financials]
+      operationId: getFinancialSnapshot
+      summary: Financial snapshot from XBRL (latest annual, prior annual, growth, latest period)
+      parameters:
+        - $ref: '#/components/parameters/Id'
+      responses:
+        '200':
+          description: Key metrics and ratios
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/SnapshotResponse' }
+        '404': { $ref: '#/components/responses/Error' }
+  /v1/company/{id}/facts:
+    get:
+      tags: [Financials]
+      operationId: getCompanyFacts
+      summary: All XBRL company facts (raw SEC companyfacts JSON, several MB)
+      parameters:
+        - $ref: '#/components/parameters/Id'
+      responses:
+        '200':
+          description: SEC companyfacts document, passed through unchanged
+          content:
+            application/json:
+              schema: { type: object, additionalProperties: true }
+        '404': { $ref: '#/components/responses/Error' }
+  /v1/company/{id}/concept/{taxonomy}/{tag}:
+    get:
+      tags: [Financials]
+      operationId: getCompanyConcept
+      summary: Full history of one XBRL concept (e.g. us-gaap/Revenues)
+      parameters:
+        - $ref: '#/components/parameters/Id'
+        - name: taxonomy
+          in: path
+          required: true
+          schema: { type: string, example: us-gaap }
+        - name: tag
+          in: path
+          required: true
+          schema: { type: string, example: NetIncomeLoss }
+      responses:
+        '200':
+          description: SEC companyconcept document
+          content:
+            application/json:
+              schema: { type: object, additionalProperties: true }
+        '404': { $ref: '#/components/responses/Error' }
+  /v1/search:
+    get:
+      tags: [Search]
+      operationId: searchFilings
+      summary: EDGAR full-text search (2001+ filings and exhibits)
+      parameters:
+        - name: q
+          in: query
+          required: true
+          description: Search terms; use double quotes for exact phrases.
+          schema: { type: string }
+          example: '"share repurchase"'
+        - name: forms
+          in: query
+          schema: { type: string }
+          example: 8-K
+        - name: ciks
+          in: query
+          description: Comma-separated CIKs to restrict to.
+          schema: { type: string }
+        - name: startdt
+          in: query
+          description: Defaults to one year ago.
+          schema: { type: string, format: date }
+        - name: enddt
+          in: query
+          schema: { type: string, format: date }
+        - name: from
+          in: query
+          description: Offset for paging (100 results per page).
+          schema: { type: integer, default: 0, minimum: 0, maximum: 9900 }
+      responses:
+        '200':
+          description: Matching documents
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/SearchResponse' }
+        '400': { $ref: '#/components/responses/Error' }
+  /v1/resolve/{id}:
+    get:
+      tags: [Utility]
+      operationId: resolveId
+      summary: Resolve a ticker to CIK and company name (or a CIK to ticker)
+      parameters:
+        - $ref: '#/components/parameters/Id'
+      responses:
+        '200':
+          description: Resolved identifiers
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Resolved' }
+        '404': { $ref: '#/components/responses/Error' }
+  /health:
+    get:
+      tags: [Utility]
+      operationId: health
+      summary: Health check
+      security: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok: { type: boolean }
+                  version: { type: string }
+                  time: { type: string, format: date-time }
+components:
+  securitySchemes:
+    RapidAPIKey:
+      type: apiKey
+      in: header
+      name: X-RapidAPI-Key
+      description: Your RapidAPI key (added automatically by RapidAPI; the gateway forwards a proxy secret to the origin).
+  parameters:
+    Id:
+      name: id
+      in: path
+      required: true
+      description: Stock ticker (e.g. AAPL, BRK.B) or SEC CIK (e.g. 320193 or 0000320193).
+      schema: { type: string }
+      example: AAPL
+  responses:
+    Error:
+      description: Error
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              error:
+                type: object
+                properties:
+                  status: { type: integer }
+                  message: { type: string }
+  schemas:
+    Resolved:
+      type: object
+      properties:
+        cik: { type: string, example: '0000320193' }
+        ticker: { type: string, nullable: true, example: AAPL }
+        name: { type: string, nullable: true, example: Apple Inc. }
+    Transaction:
+      type: object
+      properties:
+        ticker: { type: string, nullable: true, example: AAPL }
+        issuerName: { type: string, example: Apple Inc. }
+        issuerCik: { type: string, example: '0000320193' }
+        insiderName: { type: string, example: COOK TIMOTHY D }
+        insiderCik: { type: string, example: '0001214156' }
+        insiderRole: { type: string, nullable: true, example: 'Chief Executive Officer, Director' }
+        isDirector: { type: boolean }
+        isOfficer: { type: boolean }
+        isTenPercentOwner: { type: boolean }
+        transactionDate: { type: string, format: date }
+        transactionCode: { type: string, example: S }
+        transactionType: { type: string, example: Open-market or private sale }
+        side: { type: string, enum: [buy, sell, acquire, dispose, other] }
+        isOpenMarket: { type: boolean }
+        acquiredDisposed: { type: string, enum: [A, D], nullable: true }
+        shares: { type: number, nullable: true }
+        pricePerShare: { type: number, nullable: true }
+        totalValue: { type: number, nullable: true }
+        sharesOwnedAfter: { type: number, nullable: true }
+        directOrIndirect: { type: string, nullable: true, example: D }
+        securityTitle: { type: string, nullable: true }
+        isDerivative: { type: boolean }
+        underlyingShares: { type: number, nullable: true }
+        exercisePrice: { type: number, nullable: true }
+        is10b51Plan: { type: boolean, description: Filed under a Rule 10b5-1 trading plan }
+        formType: { type: string, example: '4' }
+        accessionNumber: { type: string }
+        filingDate: { type: string, format: date, nullable: true }
+        filingUrl: { type: string, format: uri, nullable: true }
+    InsiderTradesResponse:
+      type: object
+      properties:
+        query:
+          type: object
+          properties:
+            id: { type: string }
+            cik: { type: string }
+            ticker: { type: string, nullable: true }
+            name: { type: string }
+        filingsParsed: { type: integer }
+        summary:
+          type: object
+          properties:
+            transactions: { type: integer }
+            openMarketBuys: { type: integer }
+            openMarketBuyShares: { type: number }
+            openMarketBuyValue: { type: number }
+            openMarketSells: { type: integer }
+            openMarketSellShares: { type: number }
+            openMarketSellValue: { type: number }
+            distinctInsiders: { type: integer }
+        transactions:
+          type: array
+          items: { $ref: '#/components/schemas/Transaction' }
+    InsiderBuysResponse:
+      type: object
+      properties:
+        window:
+          type: object
+          properties:
+            days: { type: integer }
+            from: { type: string, format: date }
+            to: { type: string, format: date }
+        dataUpdatedAt: { type: string, format: date-time, nullable: true }
+        coverageNote: { type: string }
+        filingsTracked: { type: integer, nullable: true, description: Only reported on cold-start scans }
+        scannedThisRequest: { type: integer }
+        issuers: { type: integer }
+        clusterBuys: { type: integer }
+        results:
+          type: array
+          items:
+            type: object
+            properties:
+              ticker: { type: string, nullable: true }
+              issuerName: { type: string }
+              issuerCik: { type: string }
+              insiderCount: { type: integer }
+              isClusterBuy: { type: boolean }
+              totalShares: { type: number }
+              totalValue: { type: number }
+              avgPrice: { type: number, nullable: true }
+              firstTransactionDate: { type: string, format: date, nullable: true }
+              lastTransactionDate: { type: string, format: date, nullable: true }
+              insiders:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    name: { type: string }
+                    cik: { type: string }
+                    role: { type: string, nullable: true }
+                    shares: { type: number }
+                    value: { type: number }
+              transactions:
+                type: array
+                items: { $ref: '#/components/schemas/Transaction' }
+    Filing:
+      type: object
+      properties:
+        accessionNumber: { type: string }
+        form: { type: string, example: 10-K }
+        filingDate: { type: string, format: date }
+        reportDate: { type: string, nullable: true }
+        acceptanceDateTime: { type: string, nullable: true }
+        items: { type: string, nullable: true, description: 8-K item numbers }
+        size: { type: integer, nullable: true }
+        primaryDocument: { type: string, nullable: true }
+        description: { type: string, nullable: true }
+        documentUrl: { type: string, format: uri, nullable: true }
+        indexUrl: { type: string, format: uri }
+    FilingsResponse:
+      type: object
+      properties:
+        company:
+          type: object
+          additionalProperties: true
+          properties:
+            cik: { type: string }
+            name: { type: string }
+            ticker: { type: string, nullable: true }
+            tickers: { type: array, items: { type: string } }
+            exchanges: { type: array, items: { type: string } }
+            sic: { type: string }
+            sicDescription: { type: string }
+            fiscalYearEnd: { type: string }
+        count: { type: integer }
+        filings:
+          type: array
+          items: { $ref: '#/components/schemas/Filing' }
+        note: { type: string }
+    FactValue:
+      type: object
+      nullable: true
+      properties:
+        value: { type: number }
+        periodStart: { type: string, nullable: true }
+        periodEnd: { type: string }
+        fiscalYear: { type: integer }
+        fiscalPeriod: { type: string }
+        form: { type: string }
+        filed: { type: string }
+        accessionNumber: { type: string }
+    Metric:
+      type: object
+      nullable: true
+      properties:
+        tag: { type: string, example: 'us-gaap:Revenues' }
+        unit: { type: string, example: USD }
+        latestAnnual: { $ref: '#/components/schemas/FactValue' }
+        priorAnnual: { $ref: '#/components/schemas/FactValue' }
+        annualGrowthPct: { type: number, nullable: true }
+        latest: { $ref: '#/components/schemas/FactValue' }
+    SnapshotResponse:
+      type: object
+      properties:
+        company:
+          type: object
+          additionalProperties: true
+        metrics:
+          type: object
+          properties:
+            revenue: { $ref: '#/components/schemas/Metric' }
+            grossProfit: { $ref: '#/components/schemas/Metric' }
+            operatingIncome: { $ref: '#/components/schemas/Metric' }
+            netIncome: { $ref: '#/components/schemas/Metric' }
+            epsDiluted: { $ref: '#/components/schemas/Metric' }
+            operatingCashFlow: { $ref: '#/components/schemas/Metric' }
+            totalAssets: { $ref: '#/components/schemas/Metric' }
+            totalLiabilities: { $ref: '#/components/schemas/Metric' }
+            stockholdersEquity: { $ref: '#/components/schemas/Metric' }
+            cash: { $ref: '#/components/schemas/Metric' }
+            longTermDebt: { $ref: '#/components/schemas/Metric' }
+            sharesOutstanding: { $ref: '#/components/schemas/Metric' }
+        ratios:
+          type: object
+          properties:
+            netMarginPct: { type: number, nullable: true }
+            grossMarginPct: { type: number, nullable: true }
+            debtToEquity: { type: number, nullable: true }
+        source: { type: string }
+    SearchResponse:
+      type: object
+      properties:
+        query: { type: object, additionalProperties: true }
+        total: { type: integer }
+        returned: { type: integer }
+        nextFrom: { type: integer, nullable: true }
+        hits:
+          type: array
+          items:
+            type: object
+            properties:
+              accessionNumber: { type: string }
+              form: { type: string }
+              fileType: { type: string, nullable: true }
+              fileDescription: { type: string, nullable: true }
+              filingDate: { type: string, format: date }
+              periodEnding: { type: string, nullable: true }
+              companies: { type: array, items: { type: string } }
+              ciks: { type: array, items: { type: string } }
+              items: { type: array, items: { type: string } }
+              locations: { type: array, items: { type: string } }
+              documentUrl: { type: string, format: uri, nullable: true }
+              score: { type: number }

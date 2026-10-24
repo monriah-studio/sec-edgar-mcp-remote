@@ -1,0 +1,441 @@
+{
+  "company": {
+    "cik": "0000320193",
+    "ticker": "AAPL",
+    "name": "Apple Inc.",
+    "sic": "3571",
+    "sicDescription": "Electronic Computers",
+    "fiscalYearEnd": "0926",
+    "exchanges": [
+      "Nasdaq"
+    ]
+  },
+  "metrics": {
+    "revenue": {
+      "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "unit": "USD",
+      "latestAnnual": {
+        "value": 416161000000,
+        "periodStart": "2024-09-29",
+        "periodEnd": "2025-09-27",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "priorAnnual": {
+        "value": 391035000000,
+        "periodStart": "2023-10-01",
+        "periodEnd": "2024-09-28",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "annualGrowthPct": 6.43,
+      "latest": {
+        "value": 109417000000,
+        "periodStart": "2026-03-29",
+        "periodEnd": "2026-06-27",
+        "fiscalYear": 2026,
+        "fiscalPeriod": "Q3",
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "accessionNumber": "0000320193-26-000020"
+      }
+    },
+    "grossProfit": {
+      "tag": "us-gaap:GrossProfit",
+      "unit": "USD",
+      "latestAnnual": {
+        "value": 195201000000,
+        "periodStart": "2024-09-29",
+        "periodEnd": "2025-09-27",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "priorAnnual": {
+        "value": 180683000000,
+        "periodStart": "2023-10-01",
+        "periodEnd": "2024-09-28",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "annualGrowthPct": 8.04,
+      "latest": {
+        "value": 54770000000,
+        "periodStart": "2026-03-29",
+        "periodEnd": "2026-06-27",
+        "fiscalYear": 2026,
+        "fiscalPeriod": "Q3",
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "accessionNumber": "0000320193-26-000020"
+      }
+    },
+    "operatingIncome": {
+      "tag": "us-gaap:OperatingIncomeLoss",
+      "unit": "USD",
+      "latestAnnual": {
+        "value": 133050000000,
+        "periodStart": "2024-09-29",
+        "periodEnd": "2025-09-27",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "priorAnnual": {
+        "value": 123216000000,
+        "periodStart": "2023-10-01",
+        "periodEnd": "2024-09-28",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "annualGrowthPct": 7.98,
+      "latest": {
+        "value": 35695000000,
+        "periodStart": "2026-03-29",
+        "periodEnd": "2026-06-27",
+        "fiscalYear": 2026,
+        "fiscalPeriod": "Q3",
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "accessionNumber": "0000320193-26-000020"
+      }
+    },
+    "netIncome": {
+      "tag": "us-gaap:NetIncomeLoss",
+      "unit": "USD",
+      "latestAnnual": {
+        "value": 112010000000,
+        "periodStart": "2024-09-29",
+        "periodEnd": "2025-09-27",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "priorAnnual": {
+        "value": 93736000000,
+        "periodStart": "2023-10-01",
+        "periodEnd": "2024-09-28",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "annualGrowthPct": 19.5,
+      "latest": {
+        "value": 29789000000,
+        "periodStart": "2026-03-29",
+        "periodEnd": "2026-06-27",
+        "fiscalYear": 2026,
+        "fiscalPeriod": "Q3",
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "accessionNumber": "0000320193-26-000020"
+      }
+    },
+    "epsDiluted": {
+      "tag": "us-gaap:EarningsPerShareDiluted",
+      "unit": "USD/shares",
+      "latestAnnual": {
+        "value": 7.46,
+        "periodStart": "2024-09-29",
+        "periodEnd": "2025-09-27",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "priorAnnual": {
+        "value": 6.08,
+        "periodStart": "2023-10-01",
+        "periodEnd": "2024-09-28",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "annualGrowthPct": 22.7,
+      "latest": {
+        "value": 2.02,
+        "periodStart": "2026-03-29",
+        "periodEnd": "2026-06-27",
+        "fiscalYear": 2026,
+        "fiscalPeriod": "Q3",
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "accessionNumber": "0000320193-26-000020"
+      }
+    },
+    "operatingCashFlow": {
+      "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "latestAnnual": {
+        "value": 111482000000,
+        "periodStart": "2024-09-29",
+        "periodEnd": "2025-09-27",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "priorAnnual": {
+        "value": 118254000000,
+        "periodStart": "2023-10-01",
+        "periodEnd": "2024-09-28",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "annualGrowthPct": -5.73,
+      "latest": {
+        "value": 53925000000,
+        "periodStart": "2025-09-28",
+        "periodEnd": "2025-12-27",
+        "fiscalYear": 2026,
+        "fiscalPeriod": "Q1",
+        "form": "10-Q",
+        "filed": "2026-01-30",
+        "accessionNumber": "0000320193-26-000006"
+      }
+    },
+    "totalAssets": {
+      "tag": "us-gaap:Assets",
+      "unit": "USD",
+      "latestAnnual": {
+        "value": 359241000000,
+        "periodStart": null,
+        "periodEnd": "2025-09-27",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "priorAnnual": {
+        "value": 364980000000,
+        "periodStart": null,
+        "periodEnd": "2024-09-28",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "annualGrowthPct": -1.57,
+      "latest": {
+        "value": 383266000000,
+        "periodStart": null,
+        "periodEnd": "2026-06-27",
+        "fiscalYear": 2026,
+        "fiscalPeriod": "Q3",
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "accessionNumber": "0000320193-26-000020"
+      }
+    },
+    "totalLiabilities": {
+      "tag": "us-gaap:Liabilities",
+      "unit": "USD",
+      "latestAnnual": {
+        "value": 285508000000,
+        "periodStart": null,
+        "periodEnd": "2025-09-27",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "priorAnnual": {
+        "value": 308030000000,
+        "periodStart": null,
+        "periodEnd": "2024-09-28",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "annualGrowthPct": -7.31,
+      "latest": {
+        "value": 275746000000,
+        "periodStart": null,
+        "periodEnd": "2026-06-27",
+        "fiscalYear": 2026,
+        "fiscalPeriod": "Q3",
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "accessionNumber": "0000320193-26-000020"
+      }
+    },
+    "stockholdersEquity": {
+      "tag": "us-gaap:StockholdersEquity",
+      "unit": "USD",
+      "latestAnnual": {
+        "value": 73733000000,
+        "periodStart": null,
+        "periodEnd": "2025-09-27",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "priorAnnual": {
+        "value": 56950000000,
+        "periodStart": null,
+        "periodEnd": "2024-09-28",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "annualGrowthPct": 29.47,
+      "latest": {
+        "value": 107520000000,
+        "periodStart": null,
+        "periodEnd": "2026-06-27",
+        "fiscalYear": 2026,
+        "fiscalPeriod": "Q3",
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "accessionNumber": "0000320193-26-000020"
+      }
+    },
+    "cash": {
+      "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+      "unit": "USD",
+      "latestAnnual": {
+        "value": 35934000000,
+        "periodStart": null,
+        "periodEnd": "2025-09-27",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "priorAnnual": {
+        "value": 29943000000,
+        "periodStart": null,
+        "periodEnd": "2024-09-28",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "annualGrowthPct": 20.01,
+      "latest": {
+        "value": 39544000000,
+        "periodStart": null,
+        "periodEnd": "2026-06-27",
+        "fiscalYear": 2026,
+        "fiscalPeriod": "Q3",
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "accessionNumber": "0000320193-26-000020"
+      }
+    },
+    "longTermDebt": {
+      "tag": "us-gaap:LongTermDebtNoncurrent",
+      "unit": "USD",
+      "latestAnnual": {
+        "value": 78328000000,
+        "periodStart": null,
+        "periodEnd": "2025-09-27",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "priorAnnual": {
+        "value": 85750000000,
+        "periodStart": null,
+        "periodEnd": "2024-09-28",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "annualGrowthPct": -8.66,
+      "latest": {
+        "value": 71340000000,
+        "periodStart": null,
+        "periodEnd": "2026-06-27",
+        "fiscalYear": 2026,
+        "fiscalPeriod": "Q3",
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "accessionNumber": "0000320193-26-000020"
+      }
+    },
+    "sharesOutstanding": {
+      "tag": "dei:EntityCommonStockSharesOutstanding",
+      "unit": "shares",
+      "latestAnnual": {
+        "value": 14776353000,
+        "periodStart": null,
+        "periodEnd": "2025-10-17",
+        "fiscalYear": 2025,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2025-10-31",
+        "accessionNumber": "0000320193-25-000079"
+      },
+      "priorAnnual": {
+        "value": 15115823000,
+        "periodStart": null,
+        "periodEnd": "2024-10-18",
+        "fiscalYear": 2024,
+        "fiscalPeriod": "FY",
+        "form": "10-K",
+        "filed": "2024-11-01",
+        "accessionNumber": "0000320193-24-000123"
+      },
+      "annualGrowthPct": -2.25,
+      "latest": {
+        "value": 14594180000,
+        "periodStart": null,
+        "periodEnd": "2026-07-17",
+        "fiscalYear": 2026,
+        "fiscalPeriod": "Q3",
+        "form": "10-Q",
+        "filed": "2026-07-31",
+        "accessionNumber": "0000320193-26-000020"
+      }
+    }
+  },
+  "ratios": {
+    "netMarginPct": 26.92,
+    "grossMarginPct": 46.91,
+    "debtToEquity": 3.87
+  },
+  "source": "SEC XBRL companyconcept API (data.sec.gov). Values as reported in 10-K/10-Q (or 20-F/40-F) filings."
+}

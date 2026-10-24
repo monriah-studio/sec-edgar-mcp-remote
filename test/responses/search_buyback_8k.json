@@ -1,0 +1,2388 @@
+{
+  "query": {
+    "q": "\"share repurchase\"",
+    "forms": "8-K",
+    "startdt": "2025-10-19",
+    "enddt": "2026-10-19",
+    "from": 0
+  },
+  "total": 5681,
+  "returned": 100,
+  "nextFrom": 100,
+  "hits": [
+    {
+      "accessionNumber": "0001628280-26-016059",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-03-09",
+      "periodEnding": "2026-03-05",
+      "companies": [
+        "Ingram Micro Holding Corp  (INGM)  (CIK 0001897762)"
+      ],
+      "ciks": [
+        "0001897762"
+      ],
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Irvine, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1897762/000162828026016059/ingm-20260305.htm",
+      "score": 7.6072197
+    },
+    {
+      "accessionNumber": "0000914208-26-000076",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-02-23",
+      "periodEnding": "2026-02-18",
+      "companies": [
+        "Invesco Ltd.  (IVZ)  (CIK 0000914208)"
+      ],
+      "ciks": [
+        "0000914208"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "locations": [
+        "Atlanta, GA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000076/ivz-20260218.htm",
+      "score": 7.588528
+    },
+    {
+      "accessionNumber": "0001437749-26-030118",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "FORM 8-K",
+      "filingDate": "2026-09-11",
+      "periodEnding": "2026-09-10",
+      "companies": [
+        "BOSTON OMAHA Corp  (BOC)  (CIK 0001494582)"
+      ],
+      "ciks": [
+        "0001494582"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Omaha, NE"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1494582/000143774926030118/bomn20260910_8k.htm",
+      "score": 7.5725737
+    },
+    {
+      "accessionNumber": "0001032033-26-000003",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-01-22",
+      "periodEnding": "2026-01-22",
+      "companies": [
+        "SLM Corp  (SLM, SLMBP)  (CIK 0001032033)"
+      ],
+      "ciks": [
+        "0001032033"
+      ],
+      "items": [
+        "2.02",
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Newark, DE"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1032033/000103203326000003/slm-20260122.htm",
+      "score": 7.5669184
+    },
+    {
+      "accessionNumber": "0001637207-25-000088",
+      "form": "8-K",
+      "fileType": "EX-99.2",
+      "fileDescription": "EX-99.2",
+      "filingDate": "2025-12-15",
+      "periodEnding": "2025-12-12",
+      "companies": [
+        "Planet Fitness, Inc.  (PLNT)  (CIK 0001637207)"
+      ],
+      "ciks": [
+        "0001637207"
+      ],
+      "items": [
+        "1.01",
+        "1.02",
+        "2.03",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Hampton, NH"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1637207/000163720725000088/plnt2025asrannouncementpre.htm",
+      "score": 7.5508738
+    },
+    {
+      "accessionNumber": "0000842162-26-000080",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-09-24",
+      "periodEnding": "2026-09-24",
+      "companies": [
+        "LEAR CORP  (LEA)  (CIK 0000842162)"
+      ],
+      "ciks": [
+        "0000842162"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Southfield, MI"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/842162/000084216226000080/lear-2026sept24_exx991.htm",
+      "score": 7.5368276
+    },
+    {
+      "accessionNumber": "0001437749-26-030118",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EXHIBIT 99.1 PRESS RELEASE DATED SEPTEMBER 11, 2026",
+      "filingDate": "2026-09-11",
+      "periodEnding": "2026-09-10",
+      "companies": [
+        "BOSTON OMAHA Corp  (BOC)  (CIK 0001494582)"
+      ],
+      "ciks": [
+        "0001494582"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Omaha, NE"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1494582/000143774926030118/ex_1014685.htm",
+      "score": 7.534015
+    },
+    {
+      "accessionNumber": "0001579091-25-000095",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2025-11-10",
+      "periodEnding": "2025-11-10",
+      "companies": [
+        "Maplebear Inc.  (CART)  (CIK 0001579091)"
+      ],
+      "ciks": [
+        "0001579091"
+      ],
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1579091/000157909125000095/cart-20251110.htm",
+      "score": 7.5310183
+    },
+    {
+      "accessionNumber": "0000930413-25-003284",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": null,
+      "filingDate": "2025-10-23",
+      "periodEnding": "2025-10-21",
+      "companies": [
+        "HEXCEL CORP /DE/  (HXL)  (CIK 0000717605)"
+      ],
+      "ciks": [
+        "0000717605"
+      ],
+      "items": [
+        "1.01",
+        "2.03",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Stamford, CT"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/717605/000093041325003284/c114272_8k-ixbrl.htm",
+      "score": 7.5218883
+    },
+    {
+      "accessionNumber": "0001665918-25-000148",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2025-11-24",
+      "periodEnding": "2025-11-24",
+      "companies": [
+        "US Foods Holding Corp.  (USFD)  (CIK 0001665918)"
+      ],
+      "ciks": [
+        "0001665918"
+      ],
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "locations": [
+        "Rosemont, IL"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1665918/000166591825000148/usfdpressrelease-112425.htm",
+      "score": 7.5199833
+    },
+    {
+      "accessionNumber": "0001628280-26-032163",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-05-07",
+      "periodEnding": "2026-05-05",
+      "companies": [
+        "Ingram Micro Holding Corp  (INGM)  (CIK 0001897762)"
+      ],
+      "ciks": [
+        "0001897762"
+      ],
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Irvine, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1897762/000162828026032163/exhibit991-closing8xkxmay2.htm",
+      "score": 7.517883
+    },
+    {
+      "accessionNumber": "0001522540-25-000037",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2025-12-08",
+      "periodEnding": "2025-12-04",
+      "companies": [
+        "Marqeta, Inc.  (MQ)  (CIK 0001522540)"
+      ],
+      "ciks": [
+        "0001522540"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "locations": [
+        "Oakland, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1522540/000152254025000037/mq-20251204.htm",
+      "score": 7.5158215
+    },
+    {
+      "accessionNumber": "0001628280-26-059117",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-08-26",
+      "periodEnding": "2026-08-26",
+      "companies": [
+        "HF Sinclair Corp  (DINO)  (CIK 0001915657)"
+      ],
+      "ciks": [
+        "0001915657"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "locations": [
+        "Dallas, TX"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1915657/000162828026059117/dino-20260826.htm",
+      "score": 7.5113297
+    },
+    {
+      "accessionNumber": "0001104659-26-053047",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-04-30",
+      "periodEnding": "2026-04-28",
+      "companies": [
+        "StratCap Digital Infrastructure REIT, Inc.  (CIK 0001868516)"
+      ],
+      "ciks": [
+        "0001868516"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "New York, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1868516/000110465926053047/sdir-20260428x8k.htm",
+      "score": 7.510219
+    },
+    {
+      "accessionNumber": "0001766478-26-000038",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-05-20",
+      "periodEnding": "2026-05-20",
+      "companies": [
+        "Angel Oak Mortgage REIT, Inc.  (AOMD, AOMN, AOMR)  (CIK 0001766478)"
+      ],
+      "ciks": [
+        "0001766478"
+      ],
+      "items": [
+        "1.01",
+        "1.02",
+        "5.02",
+        "9.01"
+      ],
+      "locations": [
+        "Atlanta, GA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1766478/000176647826000038/aomr-20260519.htm",
+      "score": 7.4990516
+    },
+    {
+      "accessionNumber": "0001568100-26-000030",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-05-28",
+      "periodEnding": "2026-05-27",
+      "companies": [
+        "PagerDuty, Inc.  (PD)  (CIK 0001568100)"
+      ],
+      "ciks": [
+        "0001568100"
+      ],
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1568100/000156810026000030/pd-20260527.htm",
+      "score": 7.4939284
+    },
+    {
+      "accessionNumber": "0001193125-25-313483",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2025-12-10",
+      "periodEnding": "2025-12-09",
+      "companies": [
+        "Ally Financial Inc.  (ALLY)  (CIK 0000040729)"
+      ],
+      "ciks": [
+        "0000040729"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Detroit, MI"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/40729/000119312525313483/d937156d8k.htm",
+      "score": 7.4856267
+    },
+    {
+      "accessionNumber": "0001522540-26-000061",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-08-04",
+      "periodEnding": "2026-07-31",
+      "companies": [
+        "Marqeta, Inc.  (MQ)  (CIK 0001522540)"
+      ],
+      "ciks": [
+        "0001522540"
+      ],
+      "items": [
+        "2.02",
+        "5.02",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Oakland, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1522540/000152254026000061/mq-20260731.htm",
+      "score": 7.4856052
+    },
+    {
+      "accessionNumber": "0002089271-26-000020",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-08-05",
+      "periodEnding": "2026-07-23",
+      "companies": [
+        "Honeywell Aerospace Inc.  (HONA)  (CIK 0002089271)"
+      ],
+      "ciks": [
+        "0002089271"
+      ],
+      "items": [
+        "2.02",
+        "5.02",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Phoenix, AZ"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/2089271/000208927126000020/hona-20260723.htm",
+      "score": 7.4793725
+    },
+    {
+      "accessionNumber": "0001758730-26-000014",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-02-05",
+      "periodEnding": "2026-02-05",
+      "companies": [
+        "Tradeweb Markets Inc.  (TW)  (CIK 0001758730)"
+      ],
+      "ciks": [
+        "0001758730"
+      ],
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "New York, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1758730/000175873026000014/tw-20260205.htm",
+      "score": 7.4739947
+    },
+    {
+      "accessionNumber": "0001628280-26-052797",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-08-05",
+      "periodEnding": "2026-08-04",
+      "companies": [
+        "HF Sinclair Corp  (DINO)  (CIK 0001915657)"
+      ],
+      "ciks": [
+        "0001915657"
+      ],
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "locations": [
+        "Dallas, TX"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1915657/000162828026052797/dino-20260804.htm",
+      "score": 7.471917
+    },
+    {
+      "accessionNumber": "0001493152-26-026737",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-06-02",
+      "periodEnding": "2026-05-28",
+      "companies": [
+        "ONITY GROUP INC.  (ONIT)  (CIK 0000873860)"
+      ],
+      "ciks": [
+        "0000873860"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "West Palm Beach, FL"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/873860/000149315226026737/ex99-1.htm",
+      "score": 7.471433
+    },
+    {
+      "accessionNumber": "0001193125-25-285259",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2025-11-18",
+      "periodEnding": "2025-11-16",
+      "companies": [
+        "Zymeworks Inc.  (ZYME)  (CIK 0001937653)"
+      ],
+      "ciks": [
+        "0001937653"
+      ],
+      "items": [
+        "5.02",
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Middletown, DE"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1937653/000119312525285259/d851143dex991.htm",
+      "score": 7.4705095
+    },
+    {
+      "accessionNumber": "0001628280-26-022847",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-04-01",
+      "periodEnding": "2026-04-01",
+      "companies": [
+        "Stitch Fix, Inc.  (SFIX)  (CIK 0001576942)"
+      ],
+      "ciks": [
+        "0001576942"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1576942/000162828026022847/exhibit991-412026.htm",
+      "score": 7.465994
+    },
+    {
+      "accessionNumber": "0001193125-26-333887",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-08-05",
+      "periodEnding": "2026-08-04",
+      "companies": [
+        "RAMBUS INC  (RMBS)  (CIK 0000917273)"
+      ],
+      "ciks": [
+        "0000917273"
+      ],
+      "items": [
+        "1.01",
+        "2.03",
+        "9.01"
+      ],
+      "locations": [
+        "San Jose, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/917273/000119312526333887/d122300dex991.htm",
+      "score": 7.464828
+    },
+    {
+      "accessionNumber": "0001628280-26-016980",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-03-12",
+      "periodEnding": "2026-03-11",
+      "companies": [
+        "Ibotta, Inc.  (IBTA)  (CIK 0001538379)"
+      ],
+      "ciks": [
+        "0001538379"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Denver, CO"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1538379/000162828026016980/ibta-20260311.htm",
+      "score": 7.457043
+    },
+    {
+      "accessionNumber": "0001628280-26-005789",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-02-05",
+      "periodEnding": "2026-02-05",
+      "companies": [
+        "MITEK SYSTEMS INC  (MITK)  (CIK 0000807863)"
+      ],
+      "ciks": [
+        "0000807863"
+      ],
+      "items": [
+        "1.02",
+        "2.02",
+        "5.02",
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "San Diego, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/807863/000162828026005789/mitk-20260205.htm",
+      "score": 7.456619
+    },
+    {
+      "accessionNumber": "0001692063-26-000004",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-01-28",
+      "periodEnding": "2026-01-26",
+      "companies": [
+        "Schneider National, Inc.  (SNDR)  (CIK 0001692063)"
+      ],
+      "ciks": [
+        "0001692063"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Green Bay, WI"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1692063/000169206326000004/a1q2026dividendrelease.htm",
+      "score": 7.4552126
+    },
+    {
+      "accessionNumber": "0001104659-25-101522",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2025-10-22",
+      "periodEnding": "2025-10-20",
+      "companies": [
+        "QCR HOLDINGS INC  (QCRH)  (CIK 0000906465)"
+      ],
+      "ciks": [
+        "0000906465"
+      ],
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Moline, IL"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/906465/000110465925101522/qcrh-20251020x8k.htm",
+      "score": 7.4537168
+    },
+    {
+      "accessionNumber": "0001193125-26-086731",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-03-03",
+      "periodEnding": "2026-03-02",
+      "companies": [
+        "PINTEREST, INC.  (PINS)  (CIK 0001506293)"
+      ],
+      "ciks": [
+        "0001506293"
+      ],
+      "items": [
+        "1.01",
+        "2.03",
+        "3.02",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1506293/000119312526086731/d22903dex991.htm",
+      "score": 7.452417
+    },
+    {
+      "accessionNumber": "0001628280-26-016059",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-03-09",
+      "periodEnding": "2026-03-05",
+      "companies": [
+        "Ingram Micro Holding Corp  (INGM)  (CIK 0001897762)"
+      ],
+      "ciks": [
+        "0001897762"
+      ],
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Irvine, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1897762/000162828026016059/exhibit991-closing8xk.htm",
+      "score": 7.4512753
+    },
+    {
+      "accessionNumber": "0001563411-26-000092",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-03-12",
+      "periodEnding": "2026-03-12",
+      "companies": [
+        "CONSTELLIUM SE  (CSTM)  (CIK 0001563411)"
+      ],
+      "ciks": [
+        "0001563411"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Paris, I0"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1563411/000156341126000092/a20260312pr-constelliuma.htm",
+      "score": 7.448678
+    },
+    {
+      "accessionNumber": "0001193125-26-082802",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-02-27",
+      "periodEnding": "2026-02-25",
+      "companies": [
+        "Innovex International, Inc.  (INVX)  (CIK 0001042893)"
+      ],
+      "ciks": [
+        "0001042893"
+      ],
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "locations": [
+        "Humble, TX"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1042893/000119312526082802/invx-20260225.htm",
+      "score": 7.4481354
+    },
+    {
+      "accessionNumber": "0001829126-26-011068",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EXHIBIT 99.1",
+      "filingDate": "2026-10-13",
+      "periodEnding": "2026-10-13",
+      "companies": [
+        "Destra Multi-Alternative Fund  (DMA)  (CIK 0001523289)"
+      ],
+      "ciks": [
+        "0001523289"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Bozeman, MT"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1523289/000182912626011068/destramultialter_ex99-1.htm",
+      "score": 7.4477735
+    },
+    {
+      "accessionNumber": "0001683168-26-000884",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "PRESS RELEASE",
+      "filingDate": "2026-02-10",
+      "periodEnding": "2026-02-10",
+      "companies": [
+        "iPower Inc.  (IPW)  (CIK 0001830072)"
+      ],
+      "ciks": [
+        "0001830072"
+      ],
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Rancho Cucamonga, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1830072/000168316826000884/ipower_ex9901.htm",
+      "score": 7.4432607
+    },
+    {
+      "accessionNumber": "0001628280-26-061347",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-09-10",
+      "periodEnding": "2026-09-08",
+      "companies": [
+        "Ingram Micro Holding Corp  (INGM)  (CIK 0001897762)"
+      ],
+      "ciks": [
+        "0001897762"
+      ],
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Irvine, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1897762/000162828026061347/exhibit991-closing8xksept2.htm",
+      "score": 7.442467
+    },
+    {
+      "accessionNumber": "0001193125-25-321799",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2025-12-17",
+      "periodEnding": "2025-12-16",
+      "companies": [
+        "Nutanix, Inc.  (NTNX)  (CIK 0001618732)"
+      ],
+      "ciks": [
+        "0001618732"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "San Jose, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1618732/000119312525321799/ntnx-ex99_1.htm",
+      "score": 7.441412
+    },
+    {
+      "accessionNumber": "0001379785-26-000008",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-02-19",
+      "periodEnding": "2026-02-19",
+      "companies": [
+        "Barings BDC, Inc.  (BBDC)  (CIK 0001379785)"
+      ],
+      "ciks": [
+        "0001379785"
+      ],
+      "items": [
+        "2.02",
+        "7.01",
+        "9.01"
+      ],
+      "locations": [
+        "Charlotte, NC"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1379785/000137978526000008/exhibit99120260219earnings.htm",
+      "score": 7.4377723
+    },
+    {
+      "accessionNumber": "0001535527-26-000013",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-04-06",
+      "periodEnding": "2026-04-06",
+      "companies": [
+        "CrowdStrike Holdings, Inc.  (CRWD)  (CIK 0001535527)"
+      ],
+      "ciks": [
+        "0001535527"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Austin, TX"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000013/sharerepurchaseincreasepre.htm",
+      "score": 7.4359417
+    },
+    {
+      "accessionNumber": "0001193125-26-031743",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-01-30",
+      "periodEnding": "2026-01-30",
+      "companies": [
+        "EQT Infrastructure Co LLC  (CIK 0002032019)"
+      ],
+      "ciks": [
+        "0002032019"
+      ],
+      "items": [
+        "1.01",
+        "3.02",
+        "5.03",
+        "5.07",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "New York, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/2032019/000119312526031743/ck0002032019-20260130.htm",
+      "score": 7.4353642
+    },
+    {
+      "accessionNumber": "0001628280-25-053818",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2025-11-24",
+      "periodEnding": "2025-11-24",
+      "companies": [
+        "Installed Building Products, Inc.  (IBP)  (CIK 0001580905)"
+      ],
+      "ciks": [
+        "0001580905"
+      ],
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "locations": [
+        "Columbus, OH"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1580905/000162828025053818/ibp-20251124.htm",
+      "score": 7.4290996
+    },
+    {
+      "accessionNumber": "0001628280-25-053289",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2025-11-20",
+      "periodEnding": "2025-11-19",
+      "companies": [
+        "HF Sinclair Corp  (DINO)  (CIK 0001915657)"
+      ],
+      "ciks": [
+        "0001915657"
+      ],
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "locations": [
+        "Dallas, TX"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1915657/000162828025053289/dino-20251119.htm",
+      "score": 7.426955
+    },
+    {
+      "accessionNumber": "0001835830-26-000011",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-03-02",
+      "periodEnding": "2026-03-02",
+      "companies": [
+        "Klaviyo, Inc.  (KVYO)  (CIK 0001835830)"
+      ],
+      "ciks": [
+        "0001835830"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Boston, MA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1835830/000183583026000011/kvyo-20260302.htm",
+      "score": 7.426111
+    },
+    {
+      "accessionNumber": "0000101984-26-000037",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-03-12",
+      "periodEnding": "2026-03-11",
+      "companies": [
+        "UNIVERSAL ELECTRONICS INC  (UEIC)  (CIK 0000101984)"
+      ],
+      "ciks": [
+        "0000101984"
+      ],
+      "items": [
+        "1.01",
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Scottsdale, AZ"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/101984/000010198426000037/ueic-20260311.htm",
+      "score": 7.4221992
+    },
+    {
+      "accessionNumber": "0001628280-26-054319",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-08-06",
+      "periodEnding": "2026-08-06",
+      "companies": [
+        "FIGS, Inc.  (FIGS)  (CIK 0001846576)"
+      ],
+      "ciks": [
+        "0001846576"
+      ],
+      "items": [
+        "2.02",
+        "7.01",
+        "9.01"
+      ],
+      "locations": [
+        "Santa Monica, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1846576/000162828026054319/figs-20260806.htm",
+      "score": 7.420695
+    },
+    {
+      "accessionNumber": "0001628280-25-048998",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2025-11-04",
+      "periodEnding": "2025-11-04",
+      "companies": [
+        "HF Sinclair Corp  (DINO)  (CIK 0001915657)"
+      ],
+      "ciks": [
+        "0001915657"
+      ],
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "locations": [
+        "Dallas, TX"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1915657/000162828025048998/dino-20251104.htm",
+      "score": 7.4204984
+    },
+    {
+      "accessionNumber": "0001628280-26-036527",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-05-19",
+      "periodEnding": "2026-05-19",
+      "companies": [
+        "HF Sinclair Corp  (DINO)  (CIK 0001915657)"
+      ],
+      "ciks": [
+        "0001915657"
+      ],
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "locations": [
+        "Dallas, TX"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1915657/000162828026036527/dino-20260519.htm",
+      "score": 7.4193983
+    },
+    {
+      "accessionNumber": "0001193125-25-316812",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2025-12-12",
+      "periodEnding": "2025-12-10",
+      "companies": [
+        "SHOE CARNIVAL INC  (SCVL)  (CIK 0000895447)"
+      ],
+      "ciks": [
+        "0000895447"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Fort Mill, SC"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/895447/000119312525316812/scvl-20251210.htm",
+      "score": 7.4182467
+    },
+    {
+      "accessionNumber": "0001758021-25-000005",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2025-11-05",
+      "periodEnding": "2025-11-04",
+      "companies": [
+        "Karat Packaging Inc.  (KRT)  (CIK 0001758021)"
+      ],
+      "ciks": [
+        "0001758021"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Chino, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1758021/000175802125000005/krt-20251105xdividendandsh.htm",
+      "score": 7.4175663
+    },
+    {
+      "accessionNumber": "0000719220-26-000004",
+      "form": "8-K",
+      "fileType": "EX-99.3",
+      "fileDescription": "EX-99.3",
+      "filingDate": "2026-01-22",
+      "periodEnding": "2026-01-21",
+      "companies": [
+        "S&T BANCORP INC  (STBA)  (CIK 0000719220)"
+      ],
+      "ciks": [
+        "0000719220"
+      ],
+      "items": [
+        "2.02",
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Indiana, PA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/719220/000071922026000004/stbaex993repurchaseplanpre.htm",
+      "score": 7.4121346
+    },
+    {
+      "accessionNumber": "0001579091-26-000032",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-05-06",
+      "periodEnding": "2026-05-01",
+      "companies": [
+        "Maplebear Inc.  (CART)  (CIK 0001579091)"
+      ],
+      "ciks": [
+        "0001579091"
+      ],
+      "items": [
+        "1.01",
+        "2.02",
+        "2.03",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1579091/000157909126000032/cart-20260501.htm",
+      "score": 7.4104133
+    },
+    {
+      "accessionNumber": "0001580560-26-000007",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-05-15",
+      "periodEnding": "2026-05-15",
+      "companies": [
+        "Flywire Corp  (FLYW)  (CIK 0001580560)"
+      ],
+      "ciks": [
+        "0001580560"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Boston, MA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1580560/000158056026000007/flyw-ex99_1.htm",
+      "score": 7.4101925
+    },
+    {
+      "accessionNumber": "0001193125-26-224161",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-05-14",
+      "periodEnding": "2026-05-14",
+      "companies": [
+        "Zymeworks Inc.  (ZYME)  (CIK 0001937653)"
+      ],
+      "ciks": [
+        "0001937653"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Middletown, DE"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1937653/000119312526224161/d110930dex991.htm",
+      "score": 7.408443
+    },
+    {
+      "accessionNumber": "0001628280-25-057232",
+      "form": "8-K",
+      "fileType": "EX-10.2",
+      "fileDescription": "EX-10.2",
+      "filingDate": "2025-12-16",
+      "periodEnding": "2025-12-11",
+      "companies": [
+        "Jushi Holdings Inc.  (JUSHF)  (CIK 0001909747)"
+      ],
+      "ciks": [
+        "0001909747"
+      ],
+      "items": [
+        "5.02",
+        "9.01"
+      ],
+      "locations": [
+        "Boca Raton, FL"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1909747/000162828025057232/exhibit102-formofrestricte.htm",
+      "score": 7.406789
+    },
+    {
+      "accessionNumber": "0001493152-26-028822",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-06-16",
+      "periodEnding": "2026-06-11",
+      "companies": [
+        "Canton Strategic Holdings, Inc.  (CNTN)  (CIK 0001861657)"
+      ],
+      "ciks": [
+        "0001861657"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Bridgewater, NJ"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1861657/000149315226028822/form8-k.htm",
+      "score": 7.4046745
+    },
+    {
+      "accessionNumber": "0001193125-25-316812",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2025-12-12",
+      "periodEnding": "2025-12-10",
+      "companies": [
+        "SHOE CARNIVAL INC  (SCVL)  (CIK 0000895447)"
+      ],
+      "ciks": [
+        "0000895447"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Fort Mill, SC"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/895447/000119312525316812/scvl-ex99_1.htm",
+      "score": 7.4015617
+    },
+    {
+      "accessionNumber": "0001140361-26-012388",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-03-31",
+      "periodEnding": "2026-03-23",
+      "companies": [
+        "FORTRESS CREDIT REALTY INCOME TRUST  (CIK 0002026738)"
+      ],
+      "ciks": [
+        "0002026738"
+      ],
+      "items": [
+        "1.01",
+        "5.03",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "New York, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/2026738/000114036126012388/ef20069455_8k.htm",
+      "score": 7.4011774
+    },
+    {
+      "accessionNumber": "0001193125-26-201368",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-05-01",
+      "periodEnding": "2026-04-30",
+      "companies": [
+        "EQT Infrastructure Co LLC  (CIK 0002032019)"
+      ],
+      "ciks": [
+        "0002032019"
+      ],
+      "items": [
+        "1.01",
+        "5.03",
+        "5.07",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "New York, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/2032019/000119312526201368/ck0002032019-20260430.htm",
+      "score": 7.3985915
+    },
+    {
+      "accessionNumber": "0001528396-26-000007",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-01-08",
+      "periodEnding": "2026-01-08",
+      "companies": [
+        "Guidewire Software, Inc.  (GWRE)  (CIK 0001528396)"
+      ],
+      "ciks": [
+        "0001528396"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "San Mateo, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1528396/000152839626000007/gwreex9915000millionsharer.htm",
+      "score": 7.3951635
+    },
+    {
+      "accessionNumber": "0000821189-26-000107",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-05-21",
+      "periodEnding": "2026-05-21",
+      "companies": [
+        "EOG RESOURCES INC  (EOG)  (CIK 0000821189)"
+      ],
+      "ciks": [
+        "0000821189"
+      ],
+      "items": [
+        "5.07",
+        "8.01"
+      ],
+      "locations": [
+        "Houston, TX"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/821189/000082118926000107/eog-20260521.htm",
+      "score": 7.3938594
+    },
+    {
+      "accessionNumber": "0001628280-26-028132",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-04-29",
+      "periodEnding": "2026-04-28",
+      "companies": [
+        "ACNB CORP  (ACNB)  (CIK 0000715579)"
+      ],
+      "ciks": [
+        "0000715579"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Gettysburg, PA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/715579/000162828026028132/pressrelease2026-5secondqu.htm",
+      "score": 7.3934736
+    },
+    {
+      "accessionNumber": "0001628280-26-022847",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-04-01",
+      "periodEnding": "2026-04-01",
+      "companies": [
+        "Stitch Fix, Inc.  (SFIX)  (CIK 0001576942)"
+      ],
+      "ciks": [
+        "0001576942"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1576942/000162828026022847/sfix-20260401.htm",
+      "score": 7.3923416
+    },
+    {
+      "accessionNumber": "0001627475-26-000015",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-02-18",
+      "periodEnding": "2026-02-18",
+      "companies": [
+        "UPWORK, INC  (UPWK)  (CIK 0001627475)"
+      ],
+      "ciks": [
+        "0001627475"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "locations": [
+        "Palo Alto, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1627475/000162747526000015/upwork-20260218.htm",
+      "score": 7.3919415
+    },
+    {
+      "accessionNumber": "0001193125-26-006514",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-01-07",
+      "periodEnding": "2026-01-01",
+      "companies": [
+        "Cantor Fitzgerald Income Trust, Inc.  (CIK 0001666244)"
+      ],
+      "ciks": [
+        "0001666244"
+      ],
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "New York, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1666244/000119312526006514/cfit-20260101.htm",
+      "score": 7.3902144
+    },
+    {
+      "accessionNumber": "0001104659-25-117162",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EXHIBIT 99.1",
+      "filingDate": "2025-12-01",
+      "periodEnding": "2025-11-25",
+      "companies": [
+        "HUDSON TECHNOLOGIES INC /NY  (HDSN)  (CIK 0000925528)"
+      ],
+      "ciks": [
+        "0000925528"
+      ],
+      "items": [
+        "1.01",
+        "2.03",
+        "7.01",
+        "9.01"
+      ],
+      "locations": [
+        "Pearl River, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/925528/000110465925117162/tm2532086d1_ex99-1.htm",
+      "score": 7.389423
+    },
+    {
+      "accessionNumber": "0001628280-26-016059",
+      "form": "8-K",
+      "fileType": "EX-99.2",
+      "fileDescription": "EX-99.2",
+      "filingDate": "2026-03-09",
+      "periodEnding": "2026-03-05",
+      "companies": [
+        "Ingram Micro Holding Corp  (INGM)  (CIK 0001897762)"
+      ],
+      "ciks": [
+        "0001897762"
+      ],
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Irvine, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1897762/000162828026016059/exhibit992-closing8xk.htm",
+      "score": 7.388831
+    },
+    {
+      "accessionNumber": "0001823608-26-000162",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-06-11",
+      "periodEnding": "2026-06-09",
+      "companies": [
+        "Amalgamated Financial Corp.  (AMAL)  (CIK 0001823608)"
+      ],
+      "ciks": [
+        "0001823608"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "locations": [
+        "New York, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1823608/000182360826000162/amal-20260609.htm",
+      "score": 7.3830333
+    },
+    {
+      "accessionNumber": "0000733269-26-000017",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-02-12",
+      "periodEnding": "2026-02-12",
+      "companies": [
+        "LiveRamp Holdings, Inc.  (RAMP)  (CIK 0000733269)"
+      ],
+      "ciks": [
+        "0000733269"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "San Francisco, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/733269/000073326926000017/ramp-20260212.htm",
+      "score": 7.379265
+    },
+    {
+      "accessionNumber": "0001493152-25-027076",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2025-12-10",
+      "periodEnding": "2025-12-09",
+      "companies": [
+        "FG Nexus Inc.  (FGNX, FGNXP)  (CIK 0001591890)"
+      ],
+      "ciks": [
+        "0001591890"
+      ],
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "locations": [
+        "Charlotte, NC"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1591890/000149315225027076/ex99-1.htm",
+      "score": 7.378101
+    },
+    {
+      "accessionNumber": "0001193125-26-177675",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-04-24",
+      "periodEnding": "2026-04-24",
+      "companies": [
+        "Apollo Asset Backed Credit Co LLC  (CIK 0002000597)"
+      ],
+      "ciks": [
+        "0002000597"
+      ],
+      "items": [
+        "1.01",
+        "3.02",
+        "5.03",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "New York, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/2000597/000119312526177675/ck0002000597-20260424.htm",
+      "score": 7.3753257
+    },
+    {
+      "accessionNumber": "0001437749-26-008226",
+      "form": "8-K",
+      "fileType": "EX-10.1",
+      "fileDescription": "EXHIBIT 10.1",
+      "filingDate": "2026-03-13",
+      "periodEnding": "2026-03-13",
+      "companies": [
+        "HEALTHSTREAM INC  (HSTM)  (CIK 0001095565)"
+      ],
+      "ciks": [
+        "0001095565"
+      ],
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Nashville, TN"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1095565/000143774926008226/ex_932586.htm",
+      "score": 7.3740144
+    },
+    {
+      "accessionNumber": "0001140361-26-039374",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EXHIBIT 99.1",
+      "filingDate": "2026-10-13",
+      "periodEnding": "2026-10-12",
+      "companies": [
+        "Ollie's Bargain Outlet Holdings, Inc.  (OLLI)  (CIK 0001639300)"
+      ],
+      "ciks": [
+        "0001639300"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Harrisburg, PA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1639300/000114036126039374/ef20083658_ex99-1.htm",
+      "score": 7.3730783
+    },
+    {
+      "accessionNumber": "0001171843-25-006942",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "FORM 8-K",
+      "filingDate": "2025-11-04",
+      "periodEnding": "2025-11-04",
+      "companies": [
+        "Integer Holdings Corp  (ITGR)  (CIK 0001114483)"
+      ],
+      "ciks": [
+        "0001114483"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Plano, TX"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1114483/000117184325006942/f8k_110425.htm",
+      "score": 7.3720317
+    },
+    {
+      "accessionNumber": "0001370637-25-000106",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2025-12-19",
+      "periodEnding": "2025-12-16",
+      "companies": [
+        "ETSY INC  (ETSY)  (CIK 0001370637)"
+      ],
+      "ciks": [
+        "0001370637"
+      ],
+      "items": [
+        "5.03",
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Brooklyn, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1370637/000137063725000106/ex9918-k121825.htm",
+      "score": 7.371605
+    },
+    {
+      "accessionNumber": "0001889539-26-000025",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-02-12",
+      "periodEnding": "2026-02-12",
+      "companies": [
+        "Corebridge Financial, Inc.  (CRBD, CRBG)  (CIK 0001889539)"
+      ],
+      "ciks": [
+        "0001889539"
+      ],
+      "items": [
+        "1.01",
+        "9.01"
+      ],
+      "locations": [
+        "Houston, TX"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1889539/000188953926000025/crbg-20260212.htm",
+      "score": 7.3708215
+    },
+    {
+      "accessionNumber": "0001101215-26-000030",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-02-26",
+      "periodEnding": "2026-02-26",
+      "companies": [
+        "BREAD FINANCIAL HOLDINGS, INC.  (BFH, BFH-PA)  (CIK 0001101215)"
+      ],
+      "ciks": [
+        "0001101215"
+      ],
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "locations": [
+        "Columbus, OH"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1101215/000110121526000030/exhibit991-sharerepurchase.htm",
+      "score": 7.369972
+    },
+    {
+      "accessionNumber": "0001104659-26-101467",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-08-26",
+      "periodEnding": "2026-08-26",
+      "companies": [
+        "Hanover Bancorp, Inc. /MD  (HNVR)  (CIK 0001828588)"
+      ],
+      "ciks": [
+        "0001828588"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Mineola, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1828588/000110465926101467/hnvr-20260826xex99d1.htm",
+      "score": 7.368407
+    },
+    {
+      "accessionNumber": "0001104659-26-022984",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "FORM 8-K",
+      "filingDate": "2026-03-04",
+      "periodEnding": "2026-03-03",
+      "companies": [
+        "INNOVATIVE INDUSTRIAL PROPERTIES INC  (IIPR, IIPR-PA)  (CIK 0001677576)"
+      ],
+      "ciks": [
+        "0001677576"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Park City, UT"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1677576/000110465926022984/tm267924d1_8k.htm",
+      "score": 7.3677053
+    },
+    {
+      "accessionNumber": "0001193125-25-316877",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2025-12-12",
+      "periodEnding": "2025-12-12",
+      "companies": [
+        "CCC Intelligent Solutions Holdings Inc.  (CCC)  (CIK 0001818201)"
+      ],
+      "ciks": [
+        "0001818201"
+      ],
+      "items": [
+        "1.01",
+        "2.03",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Chicago, IL"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1818201/000119312525316877/ccc-20251212.htm",
+      "score": 7.367093
+    },
+    {
+      "accessionNumber": "0001304492-26-000053",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-09-18",
+      "periodEnding": "2026-09-16",
+      "companies": [
+        "Anterix Inc.  (ATEX)  (CIK 0001304492)"
+      ],
+      "ciks": [
+        "0001304492"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "locations": [
+        "Woodland Park, NJ"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1304492/000130449226000053/atex-20260916.htm",
+      "score": 7.3670874
+    },
+    {
+      "accessionNumber": "0000944148-26-000024",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-02-17",
+      "periodEnding": "2026-02-11",
+      "companies": [
+        "CBIZ, Inc.  (CBZ)  (CIK 0000944148)"
+      ],
+      "ciks": [
+        "0000944148"
+      ],
+      "items": [
+        "8.01"
+      ],
+      "locations": [
+        "Independence, OH"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/944148/000094414826000024/cbz-20260211.htm",
+      "score": 7.364711
+    },
+    {
+      "accessionNumber": "0001385613-26-000097",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-08-04",
+      "periodEnding": "2026-08-04",
+      "companies": [
+        "GREENLIGHT CAPITAL RE, LTD.  (GLRE)  (CIK 0001385613)"
+      ],
+      "ciks": [
+        "0001385613"
+      ],
+      "items": [
+        "1.01",
+        "2.02",
+        "9.01"
+      ],
+      "locations": [
+        "Grand Cayman"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1385613/000138561326000097/glre-20260804.htm",
+      "score": 7.364105
+    },
+    {
+      "accessionNumber": "0001104659-26-101467",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-08-26",
+      "periodEnding": "2026-08-26",
+      "companies": [
+        "Hanover Bancorp, Inc. /MD  (HNVR)  (CIK 0001828588)"
+      ],
+      "ciks": [
+        "0001828588"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Mineola, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1828588/000110465926101467/hnvr-20260826x8k.htm",
+      "score": 7.3614
+    },
+    {
+      "accessionNumber": "0001104659-26-023570",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "FORM 8-K",
+      "filingDate": "2026-03-04",
+      "periodEnding": "2026-02-27",
+      "companies": [
+        "NRG ENERGY, INC.  (NRG)  (CIK 0001013871)"
+      ],
+      "ciks": [
+        "0001013871"
+      ],
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Houston, TX"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1013871/000110465926023570/tm267426d5_8k.htm",
+      "score": 7.361323
+    },
+    {
+      "accessionNumber": "0001104659-26-093400",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-08-10",
+      "periodEnding": "2026-08-10",
+      "companies": [
+        "Amplify Energy Corp.  (AMPY)  (CIK 0001533924)"
+      ],
+      "ciks": [
+        "0001533924"
+      ],
+      "items": [
+        "2.02",
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Houston, TX"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1533924/000110465926093400/ampy-20260810x8k.htm",
+      "score": 7.3608685
+    },
+    {
+      "accessionNumber": "0001559053-26-000009",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-02-27",
+      "periodEnding": "2026-02-27",
+      "companies": [
+        "PROTHENA CORP PUBLIC LTD CO  (PRTA)  (CIK 0001559053)"
+      ],
+      "ciks": [
+        "0001559053"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Dublin 2, L2"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1559053/000155905326000009/a2026febexx991sharerepurch.htm",
+      "score": 7.3604565
+    },
+    {
+      "accessionNumber": "0001213900-26-026181",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "PRESS RELEASE, DATED MARCH 11, 2026",
+      "filingDate": "2026-03-11",
+      "periodEnding": "2026-03-11",
+      "companies": [
+        "Healthcare Triangle, Inc.  (HCTI)  (CIK 0001839285)"
+      ],
+      "ciks": [
+        "0001839285"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Pleasanton, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1839285/000121390026026181/ea028114601ex99-1.htm",
+      "score": 7.357692
+    },
+    {
+      "accessionNumber": "0001477932-26-004535",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "PRESS RELEASE",
+      "filingDate": "2026-07-28",
+      "periodEnding": "2026-07-27",
+      "companies": [
+        "KIDZ AI Inc.  (KIDZ, KIDZW)  (CIK 0002022308)"
+      ],
+      "ciks": [
+        "0002022308"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "New York, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/2022308/000147793226004535/kidz_ex991.htm",
+      "score": 7.357692
+    },
+    {
+      "accessionNumber": "0001402057-26-000031",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-05-13",
+      "periodEnding": "2026-05-13",
+      "companies": [
+        "CDW Corp  (CDW)  (CIK 0001402057)"
+      ],
+      "ciks": [
+        "0001402057"
+      ],
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Vernon Hills, IL"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1402057/000140205726000031/cdw-20260513.htm",
+      "score": 7.357285
+    },
+    {
+      "accessionNumber": "0001758021-25-000005",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2025-11-05",
+      "periodEnding": "2025-11-04",
+      "companies": [
+        "Karat Packaging Inc.  (KRT)  (CIK 0001758021)"
+      ],
+      "ciks": [
+        "0001758021"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Chino, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1758021/000175802125000005/krt-20251104.htm",
+      "score": 7.3557544
+    },
+    {
+      "accessionNumber": "0001104659-25-102011",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2025-10-24",
+      "periodEnding": "2025-10-23",
+      "companies": [
+        "SIERRA BANCORP  (BSRR)  (CIK 0001130144)"
+      ],
+      "ciks": [
+        "0001130144"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Porterville, CA"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1130144/000110465925102011/bsrr-20251023xex99d1.htm",
+      "score": 7.355543
+    },
+    {
+      "accessionNumber": "0001823529-26-000003",
+      "form": "8-K",
+      "fileType": "EX-99.3",
+      "fileDescription": "EX-99.3",
+      "filingDate": "2026-02-03",
+      "periodEnding": "2026-02-03",
+      "companies": [
+        "Enact Holdings, Inc.  (ACT)  (CIK 0001823529)"
+      ],
+      "ciks": [
+        "0001823529"
+      ],
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Raleigh, NC"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1823529/000182352926000003/a4q25dividendandsharebuyba.htm",
+      "score": 7.3550754
+    },
+    {
+      "accessionNumber": "0001193125-26-245261",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-05-28",
+      "periodEnding": "2026-05-28",
+      "companies": [
+        "STRATTEC SECURITY CORP  (STRT)  (CIK 0000933034)"
+      ],
+      "ciks": [
+        "0000933034"
+      ],
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "locations": [
+        "Milwaukee, WI"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/933034/000119312526245261/strt-20260528.htm",
+      "score": 7.3543396
+    },
+    {
+      "accessionNumber": "0000101984-25-000223",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2025-11-06",
+      "periodEnding": "2025-11-06",
+      "companies": [
+        "UNIVERSAL ELECTRONICS INC  (UEIC)  (CIK 0000101984)"
+      ],
+      "ciks": [
+        "0000101984"
+      ],
+      "items": [
+        "2.02",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "Scottsdale, AZ"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/101984/000010198425000223/ueic-20251106.htm",
+      "score": 7.3540707
+    },
+    {
+      "accessionNumber": "0001193125-26-245261",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-05-28",
+      "periodEnding": "2026-05-28",
+      "companies": [
+        "STRATTEC SECURITY CORP  (STRT)  (CIK 0000933034)"
+      ],
+      "ciks": [
+        "0000933034"
+      ],
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "locations": [
+        "Milwaukee, WI"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/933034/000119312526245261/strt-ex99_1.htm",
+      "score": 7.352538
+    },
+    {
+      "accessionNumber": "0001594805-26-000028",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EX-99.1",
+      "filingDate": "2026-06-02",
+      "periodEnding": "2026-06-02",
+      "companies": [
+        "SHOPIFY INC.  (SHOP)  (CIK 0001594805)"
+      ],
+      "ciks": [
+        "0001594805"
+      ],
+      "items": [
+        "7.01",
+        "9.01"
+      ],
+      "locations": [
+        "Ottawa, A6"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1594805/000159480526000028/a26june_shopifyrepurchasea.htm",
+      "score": 7.3513675
+    },
+    {
+      "accessionNumber": "0001703056-26-000013",
+      "form": "8-K",
+      "fileType": "8-K",
+      "fileDescription": "8-K",
+      "filingDate": "2026-03-02",
+      "periodEnding": "2026-03-02",
+      "companies": [
+        "ADT Inc.  (ADT)  (CIK 0001703056)"
+      ],
+      "ciks": [
+        "0001703056"
+      ],
+      "items": [
+        "2.02",
+        "7.01",
+        "9.01"
+      ],
+      "locations": [
+        "Boca Raton, FL"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1703056/000170305626000013/adt-20260302.htm",
+      "score": 7.3513107
+    },
+    {
+      "accessionNumber": "0001829126-26-001779",
+      "form": "8-K",
+      "fileType": "EX-99.1",
+      "fileDescription": "EXHIBIT 99.1",
+      "filingDate": "2026-03-02",
+      "periodEnding": "2026-03-02",
+      "companies": [
+        "Aeries Technology, Inc.  (AERT, AERTW)  (CIK 0001853044)"
+      ],
+      "ciks": [
+        "0001853044"
+      ],
+      "items": [
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "George Town"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1853044/000182912626001779/aeriestech_ex99-1.htm",
+      "score": 7.3499703
+    },
+    {
+      "accessionNumber": "0001193125-26-006514",
+      "form": "8-K",
+      "fileType": "EX-4.1",
+      "fileDescription": "EX-4.1",
+      "filingDate": "2026-01-07",
+      "periodEnding": "2026-01-01",
+      "companies": [
+        "Cantor Fitzgerald Income Trust, Inc.  (CIK 0001666244)"
+      ],
+      "ciks": [
+        "0001666244"
+      ],
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "locations": [
+        "New York, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/1666244/000119312526006514/cfit-ex4_1.htm",
+      "score": 7.3498306
+    },
+    {
+      "accessionNumber": "0000029989-26-000002",
+      "form": "8-K",
+      "fileType": "EX-99.3",
+      "fileDescription": "EX-99.3",
+      "filingDate": "2026-02-18",
+      "periodEnding": "2026-02-18",
+      "companies": [
+        "OMNICOM GROUP INC.  (OMC)  (CIK 0000029989)"
+      ],
+      "ciks": [
+        "0000029989"
+      ],
+      "items": [
+        "2.02",
+        "7.01",
+        "9.01"
+      ],
+      "locations": [
+        "New York, NY"
+      ],
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/29989/000002998926000002/a2025q48-kexhibit993.htm",
+      "score": 7.346022
+    }
+  ]
+}

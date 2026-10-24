@@ -1,0 +1,59 @@
+{
+  "company": {
+    "name": "MICROSOFT CORP",
+    "cik": "0000789019",
+    "ticker": "MSFT",
+    "exchanges": [
+      "Nasdaq"
+    ],
+    "industry": "Services-Prepackaged Software",
+    "fiscalYearEnd": "0630"
+  },
+  "count": 5,
+  "filings": [
+    {
+      "form": "8-K",
+      "filed": "2026-09-02",
+      "period": "2026-09-02",
+      "items": "7.01,9.01",
+      "description": "8-K",
+      "accession": "0001193125-26-380280",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965d8k.htm"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-07-29",
+      "period": "2026-06-30",
+      "description": "10-K",
+      "accession": "0001193125-26-323660",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+    },
+    {
+      "form": "8-K",
+      "filed": "2026-07-29",
+      "period": "2026-07-29",
+      "items": "2.02,9.01",
+      "description": "8-K",
+      "accession": "0001193125-26-323632",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm"
+    },
+    {
+      "form": "8-K",
+      "filed": "2026-06-05",
+      "period": "2026-06-02",
+      "items": "5.02",
+      "description": "8-K",
+      "accession": "0001193125-26-258667",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526258667/d26760d8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filed": "2026-05-14",
+      "period": "2026-05-13",
+      "items": "5.02,9.01",
+      "description": "8-K",
+      "accession": "0001193125-26-224155",
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526224155/d125909d8k.htm"
+    }
+  ]
+}

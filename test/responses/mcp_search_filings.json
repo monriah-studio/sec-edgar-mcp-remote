@@ -1,0 +1,95 @@
+{
+  "query": {
+    "q": "\"share repurchase\"",
+    "forms": "8-K",
+    "startdt": "2025-10-19",
+    "enddt": "2026-10-19",
+    "from": 0
+  },
+  "total": 5681,
+  "returned": 5,
+  "nextOffset": 100,
+  "hits": [
+    {
+      "form": "8-K",
+      "filed": "2026-03-09",
+      "companies": [
+        "Ingram Micro Holding Corp  (INGM)  (CIK 0001897762)"
+      ],
+      "period": "2026-03-05",
+      "items": [
+        "1.01",
+        "8.01",
+        "9.01"
+      ],
+      "description": "8-K",
+      "accession": "0001628280-26-016059",
+      "url": "https://www.sec.gov/Archives/edgar/data/1897762/000162828026016059/ingm-20260305.htm"
+    },
+    {
+      "form": "8-K",
+      "filed": "2026-02-23",
+      "companies": [
+        "Invesco Ltd.  (IVZ)  (CIK 0000914208)"
+      ],
+      "period": "2026-02-18",
+      "items": [
+        "8.01"
+      ],
+      "description": "8-K",
+      "accession": "0000914208-26-000076",
+      "url": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000076/ivz-20260218.htm"
+    },
+    {
+      "form": "8-K",
+      "filed": "2026-09-11",
+      "companies": [
+        "BOSTON OMAHA Corp  (BOC)  (CIK 0001494582)"
+      ],
+      "period": "2026-09-10",
+      "items": [
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "description": "FORM 8-K",
+      "accession": "0001437749-26-030118",
+      "url": "https://www.sec.gov/Archives/edgar/data/1494582/000143774926030118/bomn20260910_8k.htm"
+    },
+    {
+      "form": "8-K",
+      "filed": "2026-01-22",
+      "companies": [
+        "SLM Corp  (SLM, SLMBP)  (CIK 0001032033)"
+      ],
+      "period": "2026-01-22",
+      "items": [
+        "2.02",
+        "7.01",
+        "8.01",
+        "9.01"
+      ],
+      "description": "8-K",
+      "accession": "0001032033-26-000003",
+      "url": "https://www.sec.gov/Archives/edgar/data/1032033/000103203326000003/slm-20260122.htm"
+    },
+    {
+      "form": "8-K",
+      "filed": "2025-12-15",
+      "companies": [
+        "Planet Fitness, Inc.  (PLNT)  (CIK 0001637207)"
+      ],
+      "period": "2025-12-12",
+      "items": [
+        "1.01",
+        "1.02",
+        "2.03",
+        "8.01",
+        "9.01"
+      ],
+      "description": "EX-99.2",
+      "accession": "0001637207-25-000088",
+      "url": "https://www.sec.gov/Archives/edgar/data/1637207/000163720725000088/plnt2025asrannouncementpre.htm"
+    }
+  ]
+}

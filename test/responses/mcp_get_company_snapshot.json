@@ -1,0 +1,163 @@
+{
+  "company": {
+    "name": "Apple Inc.",
+    "cik": "0000320193",
+    "ticker": "AAPL",
+    "industry": "Electronic Computers",
+    "fiscalYearEnd": "0926",
+    "exchanges": [
+      "Nasdaq"
+    ]
+  },
+  "metrics": {
+    "revenue": {
+      "annual": 416161000000,
+      "fy": 2025,
+      "periodEnd": "2025-09-27",
+      "priorAnnual": 391035000000,
+      "growthPct": 6.43,
+      "latest": 109417000000,
+      "latestPeriodEnd": "2026-06-27",
+      "latestPeriod": "2026 Q3",
+      "unit": "USD",
+      "tag": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+    },
+    "grossProfit": {
+      "annual": 195201000000,
+      "fy": 2025,
+      "periodEnd": "2025-09-27",
+      "priorAnnual": 180683000000,
+      "growthPct": 8.04,
+      "latest": 54770000000,
+      "latestPeriodEnd": "2026-06-27",
+      "latestPeriod": "2026 Q3",
+      "unit": "USD",
+      "tag": "us-gaap:GrossProfit"
+    },
+    "operatingIncome": {
+      "annual": 133050000000,
+      "fy": 2025,
+      "periodEnd": "2025-09-27",
+      "priorAnnual": 123216000000,
+      "growthPct": 7.98,
+      "latest": 35695000000,
+      "latestPeriodEnd": "2026-06-27",
+      "latestPeriod": "2026 Q3",
+      "unit": "USD",
+      "tag": "us-gaap:OperatingIncomeLoss"
+    },
+    "netIncome": {
+      "annual": 112010000000,
+      "fy": 2025,
+      "periodEnd": "2025-09-27",
+      "priorAnnual": 93736000000,
+      "growthPct": 19.5,
+      "latest": 29789000000,
+      "latestPeriodEnd": "2026-06-27",
+      "latestPeriod": "2026 Q3",
+      "unit": "USD",
+      "tag": "us-gaap:NetIncomeLoss"
+    },
+    "epsDiluted": {
+      "annual": 7.46,
+      "fy": 2025,
+      "periodEnd": "2025-09-27",
+      "priorAnnual": 6.08,
+      "growthPct": 22.7,
+      "latest": 2.02,
+      "latestPeriodEnd": "2026-06-27",
+      "latestPeriod": "2026 Q3",
+      "unit": "USD/shares",
+      "tag": "us-gaap:EarningsPerShareDiluted"
+    },
+    "operatingCashFlow": {
+      "annual": 111482000000,
+      "fy": 2025,
+      "periodEnd": "2025-09-27",
+      "priorAnnual": 118254000000,
+      "growthPct": -5.73,
+      "latest": 53925000000,
+      "latestPeriodEnd": "2025-12-27",
+      "latestPeriod": "2026 Q1",
+      "unit": "USD",
+      "tag": "us-gaap:NetCashProvidedByUsedInOperatingActivities"
+    },
+    "totalAssets": {
+      "annual": 359241000000,
+      "fy": 2025,
+      "periodEnd": "2025-09-27",
+      "priorAnnual": 364980000000,
+      "growthPct": -1.57,
+      "latest": 383266000000,
+      "latestPeriodEnd": "2026-06-27",
+      "latestPeriod": "2026 Q3",
+      "unit": "USD",
+      "tag": "us-gaap:Assets"
+    },
+    "totalLiabilities": {
+      "annual": 285508000000,
+      "fy": 2025,
+      "periodEnd": "2025-09-27",
+      "priorAnnual": 308030000000,
+      "growthPct": -7.31,
+      "latest": 275746000000,
+      "latestPeriodEnd": "2026-06-27",
+      "latestPeriod": "2026 Q3",
+      "unit": "USD",
+      "tag": "us-gaap:Liabilities"
+    },
+    "stockholdersEquity": {
+      "annual": 73733000000,
+      "fy": 2025,
+      "periodEnd": "2025-09-27",
+      "priorAnnual": 56950000000,
+      "growthPct": 29.47,
+      "latest": 107520000000,
+      "latestPeriodEnd": "2026-06-27",
+      "latestPeriod": "2026 Q3",
+      "unit": "USD",
+      "tag": "us-gaap:StockholdersEquity"
+    },
+    "cash": {
+      "annual": 35934000000,
+      "fy": 2025,
+      "periodEnd": "2025-09-27",
+      "priorAnnual": 29943000000,
+      "growthPct": 20.01,
+      "latest": 39544000000,
+      "latestPeriodEnd": "2026-06-27",
+      "latestPeriod": "2026 Q3",
+      "unit": "USD",
+      "tag": "us-gaap:CashAndCashEquivalentsAtCarryingValue"
+    },
+    "longTermDebt": {
+      "annual": 78328000000,
+      "fy": 2025,
+      "periodEnd": "2025-09-27",
+      "priorAnnual": 85750000000,
+      "growthPct": -8.66,
+      "latest": 71340000000,
+      "latestPeriodEnd": "2026-06-27",
+      "latestPeriod": "2026 Q3",
+      "unit": "USD",
+      "tag": "us-gaap:LongTermDebtNoncurrent"
+    },
+    "sharesOutstanding": {
+      "annual": 14776353000,
+      "fy": 2025,
+      "periodEnd": "2025-10-17",
+      "priorAnnual": 15115823000,
+      "growthPct": -2.25,
+      "latest": 14594180000,
+      "latestPeriodEnd": "2026-07-17",
+      "latestPeriod": "2026 Q3",
+      "unit": "shares",
+      "tag": "dei:EntityCommonStockSharesOutstanding"
+    }
+  },
+  "ratios": {
+    "netMarginPct": 26.92,
+    "grossMarginPct": 46.91,
+    "debtToEquity": 3.87
+  }
+}

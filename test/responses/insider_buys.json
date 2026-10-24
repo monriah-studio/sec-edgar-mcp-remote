@@ -1,0 +1,489 @@
+{
+  "window": {
+    "days": 7,
+    "from": "2026-10-12",
+    "to": "2026-10-19"
+  },
+  "dataUpdatedAt": "2026-10-19T21:00:41.302Z",
+  "coverageNote": "Built from Form 4 filings parsed by a scheduled scan of EDGAR full-text search (every 10 minutes when the cron trigger is enabled). Only open-market purchases (code P, non-derivative) are included. Coverage starts when the API is deployed.",
+  "filingsTracked": 195,
+  "scannedThisRequest": 0,
+  "issuers": 8,
+  "clusterBuys": 2,
+  "results": [
+    {
+      "ticker": null,
+      "issuerName": "Sterling Real Estate Trust",
+      "issuerCik": "0001412502",
+      "insiderCount": 2,
+      "isClusterBuy": true,
+      "totalShares": 1058.823,
+      "totalValue": 27000,
+      "avgPrice": 25.5,
+      "firstTransactionDate": "2026-10-15",
+      "lastTransactionDate": "2026-10-15",
+      "insiders": [
+        {
+          "name": "Carlson Michael Paul",
+          "cik": "0001959506",
+          "role": "GENERAL COUNSEL & SECRETARY",
+          "shares": 78.4313,
+          "value": 2000
+        },
+        {
+          "name": "Wieland James",
+          "cik": "0001519822",
+          "role": "10% Owner, TRUSTEE",
+          "shares": 980.3921,
+          "value": 25000
+        }
+      ],
+      "transactions": [
+        {
+          "ticker": null,
+          "issuerName": "Sterling Real Estate Trust",
+          "issuerCik": "0001412502",
+          "insiderName": "Carlson Michael Paul",
+          "insiderCik": "0001959506",
+          "insiderRole": "GENERAL COUNSEL & SECRETARY",
+          "isDirector": false,
+          "isOfficer": true,
+          "isTenPercentOwner": false,
+          "transactionDate": "2026-10-15",
+          "transactionCode": "P",
+          "shares": 78.4313,
+          "pricePerShare": 25.5,
+          "totalValue": 2000,
+          "sharesOwnedAfter": 624.8786,
+          "directOrIndirect": "D",
+          "securityTitle": "Common Shares",
+          "is10b51Plan": false,
+          "accessionNumber": "0001959506-26-000008",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1412502/000195950626000008/form4-10192026_031030.xml"
+        },
+        {
+          "ticker": null,
+          "issuerName": "Sterling Real Estate Trust",
+          "issuerCik": "0001412502",
+          "insiderName": "Wieland James",
+          "insiderCik": "0001519822",
+          "insiderRole": "10% Owner, TRUSTEE",
+          "isDirector": false,
+          "isOfficer": false,
+          "isTenPercentOwner": true,
+          "transactionDate": "2026-10-15",
+          "transactionCode": "P",
+          "shares": 980.3921,
+          "pricePerShare": 25.5,
+          "totalValue": 25000,
+          "sharesOwnedAfter": 217103.4466,
+          "directOrIndirect": "D",
+          "securityTitle": "Common Shares",
+          "is10b51Plan": false,
+          "accessionNumber": "0001519822-26-000011",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1412502/000151982226000011/form4-10192026_031055.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "FNGR",
+      "issuerName": "FingerMotion, Inc.",
+      "issuerCik": "0001602409",
+      "insiderCount": 2,
+      "isClusterBuy": true,
+      "totalShares": 28500,
+      "totalValue": 5019.15,
+      "avgPrice": 0.1761,
+      "firstTransactionDate": "2026-10-16",
+      "lastTransactionDate": "2026-10-16",
+      "insiders": [
+        {
+          "name": "KAHN JOLIE",
+          "cik": "0001257450",
+          "role": "CEO, Director",
+          "shares": 15000,
+          "value": 2550
+        },
+        {
+          "name": "Polimeni Christopher Vincent",
+          "cik": "0001974906",
+          "role": "CFO",
+          "shares": 13500,
+          "value": 2469.15
+        }
+      ],
+      "transactions": [
+        {
+          "ticker": "FNGR",
+          "issuerName": "FingerMotion, Inc.",
+          "issuerCik": "0001602409",
+          "insiderName": "KAHN JOLIE",
+          "insiderCik": "0001257450",
+          "insiderRole": "CEO, Director",
+          "isDirector": true,
+          "isOfficer": true,
+          "isTenPercentOwner": false,
+          "transactionDate": "2026-10-16",
+          "transactionCode": "P",
+          "shares": 15000,
+          "pricePerShare": 0.17,
+          "totalValue": 2550,
+          "sharesOwnedAfter": 15000,
+          "directOrIndirect": "D",
+          "securityTitle": "Common Stock",
+          "is10b51Plan": false,
+          "accessionNumber": "0001493152-26-047482",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1602409/000149315226047482/ownership.xml"
+        },
+        {
+          "ticker": "FNGR",
+          "issuerName": "FingerMotion, Inc.",
+          "issuerCik": "0001602409",
+          "insiderName": "Polimeni Christopher Vincent",
+          "insiderCik": "0001974906",
+          "insiderRole": "CFO",
+          "isDirector": false,
+          "isOfficer": true,
+          "isTenPercentOwner": false,
+          "transactionDate": "2026-10-16",
+          "transactionCode": "P",
+          "shares": 13500,
+          "pricePerShare": 0.1829,
+          "totalValue": 2469.15,
+          "sharesOwnedAfter": 13500,
+          "directOrIndirect": "D",
+          "securityTitle": "Common Stock",
+          "is10b51Plan": false,
+          "accessionNumber": "0001493152-26-047479",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1602409/000149315226047479/ownership.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "CRBG",
+      "issuerName": "Corebridge Financial, Inc.",
+      "issuerCik": "0001889539",
+      "insiderCount": 1,
+      "isClusterBuy": false,
+      "totalShares": 510873,
+      "totalValue": 17076201.77,
+      "avgPrice": 33.4255,
+      "firstTransactionDate": "2026-10-15",
+      "lastTransactionDate": "2026-10-15",
+      "insiders": [
+        {
+          "name": "NIPPON LIFE INSURANCE CO",
+          "cik": "0000905591",
+          "role": "10% Owner",
+          "shares": 510873,
+          "value": 17076201.77
+        }
+      ],
+      "transactions": [
+        {
+          "ticker": "CRBG",
+          "issuerName": "Corebridge Financial, Inc.",
+          "issuerCik": "0001889539",
+          "insiderName": "NIPPON LIFE INSURANCE CO",
+          "insiderCik": "0000905591",
+          "insiderRole": "10% Owner",
+          "isDirector": false,
+          "isOfficer": false,
+          "isTenPercentOwner": true,
+          "transactionDate": "2026-10-15",
+          "transactionCode": "P",
+          "shares": 122762,
+          "pricePerShare": 32.8031,
+          "totalValue": 4026974.16,
+          "sharesOwnedAfter": 129112797,
+          "directOrIndirect": "D",
+          "securityTitle": "Common Stock",
+          "is10b51Plan": true,
+          "accessionNumber": "0001193125-26-425300",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526425300/ownership.xml"
+        },
+        {
+          "ticker": "CRBG",
+          "issuerName": "Corebridge Financial, Inc.",
+          "issuerCik": "0001889539",
+          "insiderName": "NIPPON LIFE INSURANCE CO",
+          "insiderCik": "0000905591",
+          "insiderRole": "10% Owner",
+          "isDirector": false,
+          "isOfficer": false,
+          "isTenPercentOwner": true,
+          "transactionDate": "2026-10-15",
+          "transactionCode": "P",
+          "shares": 361127,
+          "pricePerShare": 33.5659,
+          "totalValue": 12121552.77,
+          "sharesOwnedAfter": 129473924,
+          "directOrIndirect": "D",
+          "securityTitle": "Common Stock",
+          "is10b51Plan": true,
+          "accessionNumber": "0001193125-26-425300",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526425300/ownership.xml"
+        },
+        {
+          "ticker": "CRBG",
+          "issuerName": "Corebridge Financial, Inc.",
+          "issuerCik": "0001889539",
+          "insiderName": "NIPPON LIFE INSURANCE CO",
+          "insiderCik": "0000905591",
+          "insiderRole": "10% Owner",
+          "isDirector": false,
+          "isOfficer": false,
+          "isTenPercentOwner": true,
+          "transactionDate": "2026-10-15",
+          "transactionCode": "P",
+          "shares": 26984,
+          "pricePerShare": 34.3787,
+          "totalValue": 927674.84,
+          "sharesOwnedAfter": 129500908,
+          "directOrIndirect": "D",
+          "securityTitle": "Common Stock",
+          "is10b51Plan": true,
+          "accessionNumber": "0001193125-26-425300",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526425300/ownership.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "APLD",
+      "issuerName": "Applied Digital Corp.",
+      "issuerCik": "0001144879",
+      "insiderCount": 1,
+      "isClusterBuy": false,
+      "totalShares": 300000,
+      "totalValue": 5658000,
+      "avgPrice": 18.86,
+      "firstTransactionDate": "2026-10-16",
+      "lastTransactionDate": "2026-10-16",
+      "insiders": [
+        {
+          "name": "Zhang Jason Gechen",
+          "cik": "0001900445",
+          "role": "President",
+          "shares": 300000,
+          "value": 5658000
+        }
+      ],
+      "transactions": [
+        {
+          "ticker": "APLD",
+          "issuerName": "Applied Digital Corp.",
+          "issuerCik": "0001144879",
+          "insiderName": "Zhang Jason Gechen",
+          "insiderCik": "0001900445",
+          "insiderRole": "President",
+          "isDirector": false,
+          "isOfficer": true,
+          "isTenPercentOwner": false,
+          "transactionDate": "2026-10-16",
+          "transactionCode": "P",
+          "shares": 300000,
+          "pricePerShare": 18.86,
+          "totalValue": 5658000,
+          "sharesOwnedAfter": 2839227,
+          "directOrIndirect": "D",
+          "securityTitle": "Common Stock",
+          "is10b51Plan": false,
+          "accessionNumber": "0001900445-26-000006",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1144879/000190044526000006/wk-form4_1792407990.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "ELTP",
+      "issuerName": "ELITE PHARMACEUTICALS INC /NV/",
+      "issuerCik": "0001053369",
+      "insiderCount": 1,
+      "isClusterBuy": false,
+      "totalShares": 100000,
+      "totalValue": 25980,
+      "avgPrice": 0.2598,
+      "firstTransactionDate": "2026-10-09",
+      "lastTransactionDate": "2026-10-09",
+      "insiders": [
+        {
+          "name": "Dash Barry H",
+          "cik": "0001324222",
+          "role": "Director",
+          "shares": 100000,
+          "value": 25980
+        }
+      ],
+      "transactions": [
+        {
+          "ticker": "ELTP",
+          "issuerName": "ELITE PHARMACEUTICALS INC /NV/",
+          "issuerCik": "0001053369",
+          "insiderName": "Dash Barry H",
+          "insiderCik": "0001324222",
+          "insiderRole": "Director",
+          "isDirector": true,
+          "isOfficer": false,
+          "isTenPercentOwner": false,
+          "transactionDate": "2026-10-09",
+          "transactionCode": "P",
+          "shares": 100000,
+          "pricePerShare": 0.2598,
+          "totalValue": 25980,
+          "sharesOwnedAfter": 3365555,
+          "directOrIndirect": "D",
+          "securityTitle": "Common Stock",
+          "is10b51Plan": false,
+          "accessionNumber": "0001493152-26-047486",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1053369/000149315226047486/ownership.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "FUL",
+      "issuerName": "FULLER H B CO",
+      "issuerCik": "0000039368",
+      "insiderCount": 1,
+      "isClusterBuy": false,
+      "totalShares": 478.659,
+      "totalValue": 25000,
+      "avgPrice": 52.2292,
+      "firstTransactionDate": "2026-10-16",
+      "lastTransactionDate": "2026-10-16",
+      "insiders": [
+        {
+          "name": "Malik Muhammad Shahbaz",
+          "cik": "0001621150",
+          "role": "Senior VP, BAS",
+          "shares": 478.6594,
+          "value": 25000
+        }
+      ],
+      "transactions": [
+        {
+          "ticker": "FUL",
+          "issuerName": "FULLER H B CO",
+          "issuerCik": "0000039368",
+          "insiderName": "Malik Muhammad Shahbaz",
+          "insiderCik": "0001621150",
+          "insiderRole": "Senior VP, BAS",
+          "isDirector": false,
+          "isOfficer": true,
+          "isTenPercentOwner": false,
+          "transactionDate": "2026-10-16",
+          "transactionCode": "P",
+          "shares": 478.6594,
+          "pricePerShare": 52.2292,
+          "totalValue": 25000,
+          "sharesOwnedAfter": 14175.6594,
+          "directOrIndirect": "D",
+          "securityTitle": "Common Stock",
+          "is10b51Plan": false,
+          "accessionNumber": "0001225208-26-008441",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/39368/000122520826008441/doc4.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "EQBK",
+      "issuerName": "EQUITY BANCSHARES INC",
+      "issuerCik": "0001227500",
+      "insiderCount": 1,
+      "isClusterBuy": false,
+      "totalShares": 380,
+      "totalValue": 18536.4,
+      "avgPrice": 48.78,
+      "firstTransactionDate": "2026-10-19",
+      "lastTransactionDate": "2026-10-19",
+      "insiders": [
+        {
+          "name": "Borck Leon",
+          "cik": "0001886793",
+          "role": "Director",
+          "shares": 380,
+          "value": 18536.4
+        }
+      ],
+      "transactions": [
+        {
+          "ticker": "EQBK",
+          "issuerName": "EQUITY BANCSHARES INC",
+          "issuerCik": "0001227500",
+          "insiderName": "Borck Leon",
+          "insiderCik": "0001886793",
+          "insiderRole": "Director",
+          "isDirector": true,
+          "isOfficer": false,
+          "isTenPercentOwner": false,
+          "transactionDate": "2026-10-19",
+          "transactionCode": "P",
+          "shares": 380,
+          "pricePerShare": 48.78,
+          "totalValue": 18536.4,
+          "sharesOwnedAfter": 96320,
+          "directOrIndirect": "I",
+          "securityTitle": "Class A Common Stock",
+          "is10b51Plan": false,
+          "accessionNumber": "0001886793-26-000004",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1227500/000188679326000004/primarydocument.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "UXIN",
+      "issuerName": "Uxin Ltd",
+      "issuerCik": "0001729173",
+      "insiderCount": 1,
+      "isClusterBuy": false,
+      "totalShares": 2548,
+      "totalValue": 2615.78,
+      "avgPrice": 1.0266,
+      "firstTransactionDate": "2026-10-16",
+      "lastTransactionDate": "2026-10-16",
+      "insiders": [
+        {
+          "name": "Dai Kun",
+          "cik": "0001764279",
+          "role": "Chief Executive Officer, Director",
+          "shares": 2548,
+          "value": 2615.78
+        }
+      ],
+      "transactions": [
+        {
+          "ticker": "UXIN",
+          "issuerName": "Uxin Ltd",
+          "issuerCik": "0001729173",
+          "insiderName": "Dai Kun",
+          "insiderCik": "0001764279",
+          "insiderRole": "Chief Executive Officer, Director",
+          "isDirector": true,
+          "isOfficer": true,
+          "isTenPercentOwner": false,
+          "transactionDate": "2026-10-16",
+          "transactionCode": "P",
+          "shares": 2548,
+          "pricePerShare": 1.0266,
+          "totalValue": 2615.78,
+          "sharesOwnedAfter": 94477,
+          "directOrIndirect": "I",
+          "securityTitle": "American depositary shares",
+          "is10b51Plan": true,
+          "accessionNumber": "0001493152-26-047506",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1729173/000149315226047506/ownership.xml"
+        }
+      ]
+    }
+  ]
+}

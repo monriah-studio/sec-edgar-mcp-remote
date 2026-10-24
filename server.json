@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.monriah-studio/sec-edgar-mcp",
+  "title": "SEC EDGAR Insider Trades & Financials",
+  "description": "SEC EDGAR for agents: Form 4 insider trades, cluster buys, filings, XBRL financials and search.",
+  "version": "1.0.0",
+  "websiteUrl": "https://github.com/monriah-studio/sec-edgar-mcp-remote",
+  "repository": {
+    "url": "https://github.com/monriah-studio/sec-edgar-mcp-remote",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sec-edgar-api.kidriahx.workers.dev/mcp"
+    }
+  ]
+}

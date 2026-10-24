@@ -1,0 +1,170 @@
+{
+  "company": {
+    "cik": "0000789019",
+    "name": "MICROSOFT CORP",
+    "tickers": [
+      "MSFT"
+    ],
+    "exchanges": [
+      "Nasdaq"
+    ],
+    "sic": "7372",
+    "sicDescription": "Services-Prepackaged Software",
+    "entityType": "operating",
+    "fiscalYearEnd": "0630",
+    "stateOfIncorporation": "WA",
+    "website": null,
+    "ein": "911144442",
+    "category": "Large accelerated filer",
+    "phone": "425-882-8080",
+    "businessAddress": {
+      "street1": "ONE MICROSOFT WAY",
+      "street2": null,
+      "city": "REDMOND",
+      "stateOrCountry": "WA",
+      "zipCode": "98052-6399",
+      "stateOrCountryDescription": "WA",
+      "isForeignLocation": null,
+      "foreignStateTerritory": null,
+      "country": null,
+      "countryCode": null
+    },
+    "insiderTransactionForIssuerExists": true,
+    "insiderTransactionForOwnerExists": true,
+    "ticker": "MSFT"
+  },
+  "count": 10,
+  "filings": [
+    {
+      "accessionNumber": "0001193125-26-380280",
+      "form": "8-K",
+      "filingDate": "2026-09-02",
+      "reportDate": "2026-09-02",
+      "acceptanceDateTime": "2026-09-03T00:30:24.000Z",
+      "items": "7.01,9.01",
+      "size": 2721504,
+      "primaryDocument": "d291965d8k.htm",
+      "description": "8-K",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965d8k.htm",
+      "indexUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/0001193125-26-380280-index.htm"
+    },
+    {
+      "accessionNumber": "0001193125-26-323660",
+      "form": "10-K",
+      "filingDate": "2026-07-29",
+      "reportDate": "2026-06-30",
+      "acceptanceDateTime": "2026-07-30T00:08:01.000Z",
+      "items": null,
+      "size": 36328553,
+      "primaryDocument": "msft-20260630.htm",
+      "description": "10-K",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "indexUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.htm"
+    },
+    {
+      "accessionNumber": "0001193125-26-323632",
+      "form": "8-K",
+      "filingDate": "2026-07-29",
+      "reportDate": "2026-07-29",
+      "acceptanceDateTime": "2026-07-30T00:04:53.000Z",
+      "items": "2.02,9.01",
+      "size": 1150858,
+      "primaryDocument": "msft-20260729.htm",
+      "description": "8-K",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm",
+      "indexUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/0001193125-26-323632-index.htm"
+    },
+    {
+      "accessionNumber": "0001193125-26-258667",
+      "form": "8-K",
+      "filingDate": "2026-06-05",
+      "reportDate": "2026-06-02",
+      "acceptanceDateTime": "2026-06-05T18:36:56.000Z",
+      "items": "5.02",
+      "size": 178599,
+      "primaryDocument": "d26760d8k.htm",
+      "description": "8-K",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526258667/d26760d8k.htm",
+      "indexUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526258667/0001193125-26-258667-index.htm"
+    },
+    {
+      "accessionNumber": "0001193125-26-224155",
+      "form": "8-K",
+      "filingDate": "2026-05-14",
+      "reportDate": "2026-05-13",
+      "acceptanceDateTime": "2026-05-15T00:28:48.000Z",
+      "items": "5.02,9.01",
+      "size": 189742,
+      "primaryDocument": "d125909d8k.htm",
+      "description": "8-K",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526224155/d125909d8k.htm",
+      "indexUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526224155/0001193125-26-224155-index.htm"
+    },
+    {
+      "accessionNumber": "0001193125-26-191507",
+      "form": "10-Q",
+      "filingDate": "2026-04-29",
+      "reportDate": "2026-03-31",
+      "acceptanceDateTime": "2026-04-30T00:06:24.000Z",
+      "items": null,
+      "size": 31304294,
+      "primaryDocument": "msft-20260331.htm",
+      "description": "10-Q",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
+      "indexUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/0001193125-26-191507-index.htm"
+    },
+    {
+      "accessionNumber": "0001193125-26-191457",
+      "form": "8-K",
+      "filingDate": "2026-04-29",
+      "reportDate": "2026-04-29",
+      "acceptanceDateTime": "2026-04-30T00:03:31.000Z",
+      "items": "2.02,9.01",
+      "size": 1080617,
+      "primaryDocument": "msft-20260429.htm",
+      "description": "8-K",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-20260429.htm",
+      "indexUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/0001193125-26-191457-index.htm"
+    },
+    {
+      "accessionNumber": "0001193125-26-027207",
+      "form": "10-Q",
+      "filingDate": "2026-01-28",
+      "reportDate": "2025-12-31",
+      "acceptanceDateTime": "2026-01-29T02:07:34.000Z",
+      "items": null,
+      "size": 30063042,
+      "primaryDocument": "msft-20251231.htm",
+      "description": "10-Q",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm",
+      "indexUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/0001193125-26-027207-index.htm"
+    },
+    {
+      "accessionNumber": "0001193125-26-027198",
+      "form": "8-K",
+      "filingDate": "2026-01-28",
+      "reportDate": "2026-01-28",
+      "acceptanceDateTime": "2026-01-29T02:04:38.000Z",
+      "items": "2.02,9.01",
+      "size": 1150725,
+      "primaryDocument": "msft-20260128.htm",
+      "description": "8-K",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-20260128.htm",
+      "indexUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/0001193125-26-027198-index.htm"
+    },
+    {
+      "accessionNumber": "0001193125-25-311196",
+      "form": "8-K",
+      "filingDate": "2025-12-08",
+      "reportDate": "2025-12-05",
+      "acceptanceDateTime": "2025-12-09T02:00:35.000Z",
+      "items": "5.02,5.07",
+      "size": 250724,
+      "primaryDocument": "d34077d8k.htm",
+      "description": "8-K",
+      "documentUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525311196/d34077d8k.htm",
+      "indexUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525311196/0001193125-25-311196-index.htm"
+    }
+  ],
+  "note": "Covers the ~1,000 most recent filings EDGAR lists in the submissions API."
+}

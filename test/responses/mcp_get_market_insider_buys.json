@@ -1,0 +1,122 @@
+{
+  "window": {
+    "days": 7,
+    "from": "2026-10-12",
+    "to": "2026-10-19"
+  },
+  "dataUpdatedAt": "2026-10-19T21:00:41.302Z",
+  "issuers": 5,
+  "clusterBuys": 2,
+  "results": [
+    {
+      "issuer": "Sterling Real Estate Trust",
+      "cik": "0001412502",
+      "insiderCount": 2,
+      "clusterBuy": true,
+      "totalValueUsd": 27000,
+      "totalShares": 1058.823,
+      "avgPrice": 25.5,
+      "firstDate": "2026-10-15",
+      "lastDate": "2026-10-15",
+      "insiders": [
+        {
+          "name": "Carlson Michael Paul",
+          "role": "GENERAL COUNSEL & SECRETARY",
+          "valueUsd": 2000
+        },
+        {
+          "name": "Wieland James",
+          "role": "10% Owner, TRUSTEE",
+          "valueUsd": 25000
+        }
+      ],
+      "latestFilingUrl": "https://www.sec.gov/Archives/edgar/data/1412502/000151982226000011/form4-10192026_031055.xml"
+    },
+    {
+      "ticker": "FNGR",
+      "issuer": "FingerMotion, Inc.",
+      "cik": "0001602409",
+      "insiderCount": 2,
+      "clusterBuy": true,
+      "totalValueUsd": 5019.15,
+      "totalShares": 28500,
+      "avgPrice": 0.1761,
+      "firstDate": "2026-10-16",
+      "lastDate": "2026-10-16",
+      "insiders": [
+        {
+          "name": "KAHN JOLIE",
+          "role": "CEO, Director",
+          "valueUsd": 2550
+        },
+        {
+          "name": "Polimeni Christopher Vincent",
+          "role": "CFO",
+          "valueUsd": 2469.15
+        }
+      ],
+      "latestFilingUrl": "https://www.sec.gov/Archives/edgar/data/1602409/000149315226047479/ownership.xml"
+    },
+    {
+      "ticker": "CRBG",
+      "issuer": "Corebridge Financial, Inc.",
+      "cik": "0001889539",
+      "insiderCount": 1,
+      "clusterBuy": false,
+      "totalValueUsd": 17076201.77,
+      "totalShares": 510873,
+      "avgPrice": 33.4255,
+      "firstDate": "2026-10-15",
+      "lastDate": "2026-10-15",
+      "insiders": [
+        {
+          "name": "NIPPON LIFE INSURANCE CO",
+          "role": "10% Owner",
+          "valueUsd": 17076201.77
+        }
+      ],
+      "latestFilingUrl": "https://www.sec.gov/Archives/edgar/data/1889539/000119312526425300/ownership.xml"
+    },
+    {
+      "ticker": "APLD",
+      "issuer": "Applied Digital Corp.",
+      "cik": "0001144879",
+      "insiderCount": 1,
+      "clusterBuy": false,
+      "totalValueUsd": 5658000,
+      "totalShares": 300000,
+      "avgPrice": 18.86,
+      "firstDate": "2026-10-16",
+      "lastDate": "2026-10-16",
+      "insiders": [
+        {
+          "name": "Zhang Jason Gechen",
+          "role": "President",
+          "valueUsd": 5658000
+        }
+      ],
+      "latestFilingUrl": "https://www.sec.gov/Archives/edgar/data/1144879/000190044526000006/wk-form4_1792407990.xml"
+    },
+    {
+      "ticker": "ELTP",
+      "issuer": "ELITE PHARMACEUTICALS INC /NV/",
+      "cik": "0001053369",
+      "insiderCount": 1,
+      "clusterBuy": false,
+      "totalValueUsd": 25980,
+      "totalShares": 100000,
+      "avgPrice": 0.2598,
+      "firstDate": "2026-10-09",
+      "lastDate": "2026-10-09",
+      "insiders": [
+        {
+          "name": "Dash Barry H",
+          "role": "Director",
+          "valueUsd": 25980
+        }
+      ],
+      "latestFilingUrl": "https://www.sec.gov/Archives/edgar/data/1053369/000149315226047486/ownership.xml"
+    }
+  ],
+  "note": "Open-market, non-derivative purchases only. Not investment advice."
+}

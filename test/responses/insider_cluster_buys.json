@@ -1,0 +1,167 @@
+{
+  "window": {
+    "days": 30,
+    "from": "2026-09-19",
+    "to": "2026-10-19"
+  },
+  "dataUpdatedAt": "2026-10-19T21:00:41.302Z",
+  "coverageNote": "Built from Form 4 filings parsed by a scheduled scan of EDGAR full-text search (every 10 minutes when the cron trigger is enabled). Only open-market purchases (code P, non-derivative) are included. Coverage starts when the API is deployed.",
+  "filingsTracked": 195,
+  "scannedThisRequest": 0,
+  "issuers": 2,
+  "clusterBuys": 2,
+  "results": [
+    {
+      "ticker": null,
+      "issuerName": "Sterling Real Estate Trust",
+      "issuerCik": "0001412502",
+      "insiderCount": 2,
+      "isClusterBuy": true,
+      "totalShares": 1058.823,
+      "totalValue": 27000,
+      "avgPrice": 25.5,
+      "firstTransactionDate": "2026-10-15",
+      "lastTransactionDate": "2026-10-15",
+      "insiders": [
+        {
+          "name": "Carlson Michael Paul",
+          "cik": "0001959506",
+          "role": "GENERAL COUNSEL & SECRETARY",
+          "shares": 78.4313,
+          "value": 2000
+        },
+        {
+          "name": "Wieland James",
+          "cik": "0001519822",
+          "role": "10% Owner, TRUSTEE",
+          "shares": 980.3921,
+          "value": 25000
+        }
+      ],
+      "transactions": [
+        {
+          "ticker": null,
+          "issuerName": "Sterling Real Estate Trust",
+          "issuerCik": "0001412502",
+          "insiderName": "Carlson Michael Paul",
+          "insiderCik": "0001959506",
+          "insiderRole": "GENERAL COUNSEL & SECRETARY",
+          "isDirector": false,
+          "isOfficer": true,
+          "isTenPercentOwner": false,
+          "transactionDate": "2026-10-15",
+          "transactionCode": "P",
+          "shares": 78.4313,
+          "pricePerShare": 25.5,
+          "totalValue": 2000,
+          "sharesOwnedAfter": 624.8786,
+          "directOrIndirect": "D",
+          "securityTitle": "Common Shares",
+          "is10b51Plan": false,
+          "accessionNumber": "0001959506-26-000008",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1412502/000195950626000008/form4-10192026_031030.xml"
+        },
+        {
+          "ticker": null,
+          "issuerName": "Sterling Real Estate Trust",
+          "issuerCik": "0001412502",
+          "insiderName": "Wieland James",
+          "insiderCik": "0001519822",
+          "insiderRole": "10% Owner, TRUSTEE",
+          "isDirector": false,
+          "isOfficer": false,
+          "isTenPercentOwner": true,
+          "transactionDate": "2026-10-15",
+          "transactionCode": "P",
+          "shares": 980.3921,
+          "pricePerShare": 25.5,
+          "totalValue": 25000,
+          "sharesOwnedAfter": 217103.4466,
+          "directOrIndirect": "D",
+          "securityTitle": "Common Shares",
+          "is10b51Plan": false,
+          "accessionNumber": "0001519822-26-000011",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1412502/000151982226000011/form4-10192026_031055.xml"
+        }
+      ]
+    },
+    {
+      "ticker": "FNGR",
+      "issuerName": "FingerMotion, Inc.",
+      "issuerCik": "0001602409",
+      "insiderCount": 2,
+      "isClusterBuy": true,
+      "totalShares": 28500,
+      "totalValue": 5019.15,
+      "avgPrice": 0.1761,
+      "firstTransactionDate": "2026-10-16",
+      "lastTransactionDate": "2026-10-16",
+      "insiders": [
+        {
+          "name": "KAHN JOLIE",
+          "cik": "0001257450",
+          "role": "CEO, Director",
+          "shares": 15000,
+          "value": 2550
+        },
+        {
+          "name": "Polimeni Christopher Vincent",
+          "cik": "0001974906",
+          "role": "CFO",
+          "shares": 13500,
+          "value": 2469.15
+        }
+      ],
+      "transactions": [
+        {
+          "ticker": "FNGR",
+          "issuerName": "FingerMotion, Inc.",
+          "issuerCik": "0001602409",
+          "insiderName": "KAHN JOLIE",
+          "insiderCik": "0001257450",
+          "insiderRole": "CEO, Director",
+          "isDirector": true,
+          "isOfficer": true,
+          "isTenPercentOwner": false,
+          "transactionDate": "2026-10-16",
+          "transactionCode": "P",
+          "shares": 15000,
+          "pricePerShare": 0.17,
+          "totalValue": 2550,
+          "sharesOwnedAfter": 15000,
+          "directOrIndirect": "D",
+          "securityTitle": "Common Stock",
+          "is10b51Plan": false,
+          "accessionNumber": "0001493152-26-047482",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1602409/000149315226047482/ownership.xml"
+        },
+        {
+          "ticker": "FNGR",
+          "issuerName": "FingerMotion, Inc.",
+          "issuerCik": "0001602409",
+          "insiderName": "Polimeni Christopher Vincent",
+          "insiderCik": "0001974906",
+          "insiderRole": "CFO",
+          "isDirector": false,
+          "isOfficer": true,
+          "isTenPercentOwner": false,
+          "transactionDate": "2026-10-16",
+          "transactionCode": "P",
+          "shares": 13500,
+          "pricePerShare": 0.1829,
+          "totalValue": 2469.15,
+          "sharesOwnedAfter": 13500,
+          "directOrIndirect": "D",
+          "securityTitle": "Common Stock",
+          "is10b51Plan": false,
+          "accessionNumber": "0001493152-26-047479",
+          "filingDate": "2026-10-19",
+          "filingUrl": "https://www.sec.gov/Archives/edgar/data/1602409/000149315226047479/ownership.xml"
+        }
+      ]
+    }
+  ]
+}

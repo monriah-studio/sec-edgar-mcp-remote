@@ -1,0 +1,6 @@
+{
+  "error": {
+    "status": 400,
+    "message": "Parameter \"limit\" must be a number."
+  }
+}

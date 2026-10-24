@@ -1,0 +1,39 @@
+name = "sec-edgar-api"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+workers_dev = true
+
+# Serve openapi.yaml at /openapi.yaml
+[[rules]]
+type = "Text"
+globs = ["**/*.yaml"]
+fallthrough = true
+
+[vars]
+# SEC fair access: declare who you are. Keep a monitored contact email here.
+SEC_USER_AGENT = "MonRiah Studio SEC EDGAR API kidriahx@gmail.com"
+MAX_SUBREQUESTS = "45"      # Workers Free allows 50 subrequests per invocation
+CRON_MAX_FILINGS = "40"
+# RAPIDAPI_PROXY_SECRET is set as a secret: `npx wrangler secret put RAPIDAPI_PROXY_SECRET`
+
+# KV cache (ticker map, parsed Form 4s, market insider-buy store).
+# Replace the id with the one printed by `npx wrangler kv namespace create CACHE`.
+[[kv_namespaces]]
+binding = "CACHE"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+# Global SEC rate limiter (SQLite-backed Durable Objects are available on the Free plan).
+[[durable_objects.bindings]]
+name = "SEC_LIMITER"
+class_name = "SecRateLimiter"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["SecRateLimiter"]
+
+# Refresh the market-wide insider-buy store every 10 minutes (144 runs/day, 1 KV write each).
+[triggers]
+crons = ["*/10 * * * *"]
+
+[observability]
+enabled = true

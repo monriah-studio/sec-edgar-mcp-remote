@@ -1,0 +1,42 @@
+{
+  "name": "sec-edgar-mcp-remote",
+  "version": "1.0.0",
+  "description": "Remote MCP server and JSON API for SEC EDGAR: Form 4 insider trades, filings, XBRL financials and full-text search (Cloudflare Workers)",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node test/harness.mjs",
+    "test:unit": "node test/unit.mjs",
+    "test:mcp": "node test/mcp.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "sec",
+    "edgar",
+    "form-4",
+    "insider-trading",
+    "xbrl",
+    "cloudflare-workers"
+  ],
+  "author": "MonRiah Studio <kidriahx@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "wrangler": "^4.86.0"
+  },
+  "private": true,
+  "dependencies": {
+    "@cfworker/json-schema": "^4.1.1",
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monriah-studio/sec-edgar-mcp-remote.git"
+  },
+  "mcpName": "io.github.monriah-studio/sec-edgar-mcp"
+}

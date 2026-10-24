@@ -1,0 +1,6 @@
+{
+  "error": {
+    "status": 404,
+    "message": "Ticker not found in SEC company_tickers.json: ZZZZZZ"
+  }
+}
